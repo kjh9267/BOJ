@@ -9,27 +9,6 @@ def change(char):
         return ord(char) - 97 + 26
 
 
-def bfs():
-    queue = deque()
-    queue.append(0)
-    way = [0]
-    key = False
-    while queue:
-        x = queue.popleft()
-        visit.append(x)
-        for i in range(52):
-            if capacity[x][i] - flow[x][i] > 0:
-                if i not in visit and i not in queue:
-                    queue.append(i)
-                    way.append(i)
-                    if i is 25:
-                        key = True
-                        break
-        if key is True:
-            break
-    return way
-
-
 n = int(sys.stdin.readline())
 inf = float('inf')
 capacity = [[0 for j in range(52)] for i in range(52)]
@@ -43,18 +22,31 @@ for _ in range(n):
     v = change(v)
     w = int(w)
     capacity[u][v] += w
-
+    capacity[v][u] += w
+print(capacity)
+print(flow)
 while True:
-    res = bfs()
-    print(res)
-    if res[-1] is not 25:
-        break
-    f = inf
-    for i in range(len(res)-1):
-        if f > capacity[res[i]][res[i+1]] - flow[res[i]][res[i+1]]:
-            f = capacity[res[i]][res[i+1]] - flow[res[i]][res[i+1]]
-    for i in range(len(res)-1):
-        flow[res[i]][res[i+1]] += f
-        flow[res[i]][res[i+1]] -= f
-    total += f
+    queue = deque()
+    queue.append(0)
+    way = [0 for _ in range(52)]
+    while queue:
+        x = queue.popleft()
+        visit.append(x)
+        for i in range(52):
+            if capacity[x][i] - flow[x][i] > 0 and i not in visit:
+                way[x] = i
+                queue.append(i)
+                if i is 25:
+                    break
+        f = inf
+        for i, j in enumerate(way):
+            if j is not 0:
+                if f > capacity[i][j] - flow[i][j]:
+                    f = capacity[i][j] - flow[i][j]
+        for i, j in enumerate(way):
+            if j is not 0:
+                flow[i][j] += f
+                flow[j][i] -= f
+        total += f
     print(total)
+    break
