@@ -27,29 +27,30 @@ while True:
     queue = deque()
     queue.append(0)
     way = [-1 for _ in range(52)]
+    key = False
     while queue:
-        key = False
         x = queue.popleft()
         for i in range(52):
             if capacity[x][i] - flow[x][i] > 0 and way[i] is -1:
-                way[x] = i
                 queue.append(i)
+                way[i] = x
                 if i is 25:
                     key = True
                     break
         if key is True:
             break
-    if 25 not in way:
+    if way[25] is -1:
         break
     f = inf
-    for i, j in enumerate(way):
-        if j is not -1:
-            if f > capacity[i][j] - flow[i][j]:
-                f = capacity[i][j] - flow[i][j]
-    for i, j in enumerate(way):
-        if j is not -1:
-            flow[i][j] += f
-            flow[j][i] -= f
+    node = 25
+    while node is not 0:
+        if f > capacity[way[node]][node] - flow[way[node]][node]:
+            f = capacity[way[node]][node] - flow[way[node]][node]
+        node = way[node]
+    node = 25
+    while node is not 0:
+        flow[way[node]][node] += f
+        flow[node][way[node]] -= f
+        node = way[node]
     total += f
-
 print(total)
