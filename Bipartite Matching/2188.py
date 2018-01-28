@@ -4,11 +4,7 @@ from sys import stdin
 def match(a):
     visit[a] = 1
     for b in graph[a]:
-        if B[b] is -1:
-            A[a] = b
-            B[b] = a
-            return True
-        elif visit[B[b]] is 0 and match(B[b]):
+        if B[b] is -1 or visit[B[b]] is 0 and match(B[b]):
             A[a] = b
             B[b] = a
             return True
