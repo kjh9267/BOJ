@@ -5,22 +5,18 @@ from collections import deque # 파이썬에서 일반 list로 queue를 구현�
 def bfs(node):
     queue = deque()
     queue.append(node)
-    while queue: # queue가 빌 때 까지 반복
+    xx = [1, 0, -1, 0]
+    yy = [0, 1, 0, -1]
+    while queue:  # queue가 빌 때 까지 반복
         a = queue.popleft()
         visit[a[1]][a[0]] = 1
         # 인접 좌표에 배추가 있고, 아직 방문하지 않고, queue에 들어 있지 않을 때 queue에 append 해준다
-        if a[1] - 1 >= 0:   # y 좌표가 0이 아닐때
-            if graph[a[1]-1][a[0]] is 1 and visit[a[1]-1][a[0]] is 0 and [a[0],a[1]-1] not in queue:
-                queue.append([a[0], a[1]-1])
-        if a[0] - 1 >= 0:   # x 좌표가 0이 아닐때
-            if graph[a[1]][a[0]-1] is 1 and visit[a[1]][a[0]-1] is 0 and [a[0]-1,a[1]] not in queue:
-                queue.append([a[0]-1, a[1]])
-        if a[1] + 1 <= n-1:  # y 좌표가 끝좌표가 아닐때
-            if graph[a[1]+1][a[0]] is 1 and visit[a[1]+1][a[0]] is 0 and [a[0],a[1]+1] not in queue:
-                queue.append([a[0], a[1]+1])
-        if a[0] + 1 <= m-1:  # x 좌표가 끝좌표가 아닐때
-            if graph[a[1]][a[0]+1] is 1 and visit[a[1]][a[0]+1] is 0 and [a[0]+1,a[0]] not in queue:
-                queue.append([a[0]+1, a[1]])
+        for i in range(4):
+            dx = a[0] + xx[i]
+            dy = a[1] + yy[i]
+            if 0 <= dy < n and 0 <= dx < m:
+                if graph[dy][dx] is 1 and visit[dy][dx] is 0 and [dx,dy] not in queue:
+                    queue.append([dx,dy])
 
 
 t = int(sys.stdin.readline()) # test케이스의 수
