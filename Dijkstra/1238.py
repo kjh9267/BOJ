@@ -16,39 +16,32 @@ for _ in range(m):
     reverse_cost[b - 1].append(c)
 
 pq = PriorityQueue()
-
-for i in range(n):
-    if i is x - 1:
-        pq.put((0, i))          # 출발 노드는 거리를 0으로 하여 우선순위 큐에서 제일 먼저 나오게 한다
-    else:
-        pq.put((inf, i))        # 출발 노드를 제외한 곳은 모두 무한대 값
-
+pq.put((0,x-1))
 res = [inf for i in range(n)]
 res[x-1] = 0
 
 while pq.qsize():                               # 정방향 그래프를 이용한 다익스트라 알고리즘
     dist, node = pq.get()
+    if res[node] < dist:
+        continue
     for i, j in zip(graph[node], cost[node]):    # 간선의 도착점과 그에 대한 비용
-        if res[i] > j + res[node]:               # 도착점의 비용과 도착점의 비용 + 전 노드까지의 값을 비교
-            res[i] = j + res[node]               # 도착점의 비용이 더 클 경우 도착점의 비용 + 전 노드까지의 값으로 변경
+        if res[i] > j + dist:                   # 도착점의 비용과 도착점의 비용 + 전 노드까지의 값을 비교
+            res[i] = j + dist                   # 도착점의 비용이 더 클 경우 도착점의 비용 + 전 노드까지의 값으로 변경
             pq.put((res[i], i))                  # 갱신된 값을 우선순위 큐에도 넣어준다
 
 reverse_pq = PriorityQueue()
-
-for i in range(n):
-    if i is x - 1:
-        reverse_pq.put((0, i))
-    else:
-        reverse_pq.put((inf, i))
+reverse_pq.put((0,x-1))
 
 reverse_res = [inf for i in range(n)]
 reverse_res[x-1] = 0
 
 while reverse_pq.qsize():                                           # 역방향 그래프를 이용한 다익스트라 알고리즘
     dist, node = reverse_pq.get()
+    if reverse_res[node] < dist:
+        continue
     for i, j in zip(reverse_graph[node], reverse_cost[node]):
-        if reverse_res[i] > j + reverse_res[node]:
-            reverse_res[i] = j + reverse_res[node]
+        if reverse_res[i] > j + dist:
+            reverse_res[i] = j + dist
             reverse_pq.put((reverse_res[i], i))
 
 result = [res[i] + reverse_res[i] for i in range(n)]                # 결과값 두개를 각각 합하여 왕복값을 구한 list
