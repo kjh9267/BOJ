@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulation/2573.py" afterPath="$PROJECT_DIR$/Simulation/2573.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dijkstra/1753.py" afterPath="$PROJECT_DIR$/Dijkstra/1753.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +63,7 @@
     <SUITE FILE_PATH="coverage/BOJ$2750.coverage" NAME="2750 Coverage Results" MODIFIED="1512115600431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$4153.coverage" NAME="4153 Coverage Results" MODIFIED="1510215017407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$9517.coverage" NAME="9517 Coverage Results" MODIFIED="1517223165131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation" />
-    <SUITE FILE_PATH="coverage/BOJ$1753.coverage" NAME="1753 Coverage Results" MODIFIED="1516004780771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dijkstra" />
+    <SUITE FILE_PATH="coverage/BOJ$1753.coverage" NAME="1753 Coverage Results" MODIFIED="1517824158100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dijkstra" />
     <SUITE FILE_PATH="coverage/BOJ$10808.coverage" NAME="10808 Coverage Results" MODIFIED="1510230310281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2606.coverage" NAME="2606 Coverage Results" MODIFIED="1512039737061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$5585.coverage" NAME="5585 Coverage Results" MODIFIED="1510214372368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -183,12 +183,12 @@
     <SUITE FILE_PATH="coverage/BOJ$1613.coverage" NAME="1613 Coverage Results" MODIFIED="1512542960157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2573.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Simulation/2573.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="1753.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dijkstra/1753.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="485">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -253,7 +253,6 @@
         <option value="$PROJECT_DIR$/문자열 처리/8595.py" />
         <option value="$PROJECT_DIR$/Dijkstra/1916.py" />
         <option value="$PROJECT_DIR$/Floyd/1238.py" />
-        <option value="$PROJECT_DIR$/Dijkstra/1753.py" />
         <option value="$PROJECT_DIR$/Dijkstra/1238.py" />
         <option value="$PROJECT_DIR$/Priority Queue/2252.py" />
         <option value="$PROJECT_DIR$/Network Flow.py" />
@@ -272,6 +271,7 @@
         <option value="$PROJECT_DIR$/Simulation/3190.py" />
         <option value="$PROJECT_DIR$/Simulation/3055.py" />
         <option value="$PROJECT_DIR$/Simulation/2573.py" />
+        <option value="$PROJECT_DIR$/Dijkstra/1753.py" />
       </list>
     </option>
   </component>
@@ -304,7 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,18 +314,14 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="BFS,DFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2573">
+  <component name="RunManager" selected="Python.1753">
     <configuration name="1463" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,6 +363,24 @@
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/1463.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="1753" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dijkstra" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BOJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dijkstra/1753.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -440,24 +453,6 @@
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Flow/6086.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="9517" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BOJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulation/9517.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -611,19 +606,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
-      <item index="1" class="java.lang.String" itemvalue="Python.9517" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3190" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1463" />
-      <item index="4" class="java.lang.String" itemvalue="Python.32425346456" />
-      <item index="5" class="java.lang.String" itemvalue="Python.2573" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3190" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1463" />
+      <item index="3" class="java.lang.String" itemvalue="Python.32425346456" />
+      <item index="4" class="java.lang.String" itemvalue="Python.2573" />
+      <item index="5" class="java.lang.String" itemvalue="Python.1753" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.2573" />
-        <item index="1" class="java.lang.String" itemvalue="Python.3190" />
-        <item index="2" class="java.lang.String" itemvalue="Python.32425346456" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1463" />
-        <item index="4" class="java.lang.String" itemvalue="Python.9517" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1753" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2573" />
+        <item index="2" class="java.lang.String" itemvalue="Python.3190" />
+        <item index="3" class="java.lang.String" itemvalue="Python.32425346456" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1463" />
       </list>
     </recent_temporary>
   </component>
@@ -647,7 +642,7 @@
     <frame x="-7" y="-7" width="1855" height="1094" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20381808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="764" y="61" width="312" height="958" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20718697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="764" y="61" width="312" height="958" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -768,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dijkstra/1753.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -925,37 +913,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/구현/1748.py" />
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/1463.py" />
-    <entry file="file://$PROJECT_DIR$/BFS,DFS/32425346456.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS,DFS/32425346456.py" />
     <entry file="file://$PROJECT_DIR$/Simulation/3190.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation/3055.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/3055.py" />
     <entry file="file://$PROJECT_DIR$/BFS,DFS/2644.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,14 +947,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Simulation/2573.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dijkstra/1753.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
