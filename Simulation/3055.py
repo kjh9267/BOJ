@@ -2,27 +2,26 @@ import sys
 from collections import deque
 
 
-def water():
-    for ii in range(r):
-        for jj in range(c):
-            if graph[ii][jj] is '*':
-                for i, j in zip(dx,dy):
-                    xx = jj + i
-                    yy = ii + j
-                    if 0 <= yy < r and 0 <= xx < c:
-                        if graph[yy][xx] == 'S' or graph[yy][xx] == '.':
-                            graph[yy][xx] = '**'
-    for i in range(r):
-        for j in range(c):
-            if graph[i][j] == '**':
-                graph[i][j] = '*'
+def danger():
+    for j, i in water:
+        for x, y in zip(dx,dy):
+            xx = x + j
+            yy = y + i
+            if 0 <= yy < r and 0 <= xx < c:
+                if graph[yy][xx] == 'S' or graph[yy][xx] == '.':
+                    graph[yy][xx] = '*'
+                    temp.append((xx,yy))
+    water.clear()
+    for i in temp:
+        water.append(i)
+    temp.clear()
 
 
-def bfs(y, x):
+def bfs(x, y):
     queue = deque()
     queue.append((x,y))
     level = deque()
-    water()
+    danger()
     while queue:
         a = queue.popleft()
         for i, j in zip(dx,dy):
@@ -35,7 +34,7 @@ def bfs(y, x):
                     if graph[yy][xx] == 'D':
                         return way
         if not queue:
-            water()
+            danger()
             while level:
                 queue.append(level.popleft())
 
@@ -43,6 +42,8 @@ def bfs(y, x):
 r, c = map(int,sys.stdin.readline().split())
 graph = []
 way = [[-1 for j in range(c)] for i in range(r)]
+water = deque()
+temp = deque()
 dx = (1,0,-1,0)
 dy = (0,1,0,-1)
 cnt = 0
@@ -53,9 +54,13 @@ for _ in range(r):
 for i in range(r):
     for j in range(c):
         if graph[i][j] == 'S':
-            way = bfs(i,j)
-        if graph[i][j] == 'D':
+            start = (j,i)
+        elif graph[i][j] == 'D':
             node = (j,i)
+        elif graph[i][j] == '*':
+            water.append((j,i))
+
+way = bfs(start[0], start[1])
 
 if way is None:
     print('KAKTUS')
