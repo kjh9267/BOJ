@@ -12,7 +12,7 @@ def dfs():
         if x not in visit:      # visit에 x가 없다면 visit에 append
             visit.append(x)
             for i in range(n-1,-1,-1):          # 인접한 작은 수 부터 탐색하는 조건을 만족 시키기 위해 반대로
-                if graph[x-1][i] is 1 and i+1 not in visit:  # 1 인경우(인접노드) 와 아직 visit하지 않은 노드
+                if graph[x-1][i] is 1:  # 1 인경우(인접노드) 와 아직 visit하지 않은 노드
                     stack.append(i+1)
     return visit
 
