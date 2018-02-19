@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dynamic Programming/11726.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dynamic Programming/1904.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,8 +185,8 @@
     <SUITE FILE_PATH="coverage/BOJ$2743.coverage" NAME="2743 Coverage Results" MODIFIED="1510482595517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$9507.coverage" NAME="9507 Coverage Results" MODIFIED="1509710895048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$11052.coverage" NAME="11052 Coverage Results" MODIFIED="1512392076154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BOJ$1904.coverage" NAME="1904 Coverage Results" MODIFIED="1511341436038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2487.coverage" NAME="2487 Coverage Results" MODIFIED="1518163725706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/구현" />
+    <SUITE FILE_PATH="coverage/BOJ$1904.coverage" NAME="1904 Coverage Results" MODIFIED="1519028840048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic Programming" />
     <SUITE FILE_PATH="coverage/BOJ$11656.coverage" NAME="11656 Coverage Results" MODIFIED="1510230974070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2174.coverage" NAME="2174 Coverage Results" MODIFIED="1518170067646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation" />
     <SUITE FILE_PATH="coverage/BOJ$1316.coverage" NAME="1316 Coverage Results" MODIFIED="1510387943933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -199,11 +199,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="11726.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dynamic Programming/11726.py">
+      <file leaf-file-name="1904.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dynamic Programming/1904.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -236,7 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Stack/9012.py" />
         <option value="$PROJECT_DIR$/Stack/9935.py" />
         <option value="$PROJECT_DIR$/Floyd/1058.py" />
         <option value="$PROJECT_DIR$/Graph/1058.py" />
@@ -287,6 +286,7 @@
         <option value="$PROJECT_DIR$/Recursive/1074.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/2193.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/11726.py" />
+        <option value="$PROJECT_DIR$/Dynamic Programming/1904.py" />
       </list>
     </option>
   </component>
@@ -364,7 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11726">
+  <component name="RunManager" selected="Python.1904">
     <configuration name="11726" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -401,7 +401,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="1697" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1904" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -414,7 +414,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/1697.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/1904.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -622,19 +622,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1697" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1697 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1987" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2193" />
-      <item index="5" class="java.lang.String" itemvalue="Python.11726" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1697 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1987" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2193" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11726" />
+      <item index="5" class="java.lang.String" itemvalue="Python.1904" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11726" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2193" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1987" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1697 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1697" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1904" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11726" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2193" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1987" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1697 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -713,13 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/String Handling/1100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String Handling/10808.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1014,6 +1007,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/1904.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>
