@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dijkstra/1261.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Math/1111.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BFS,DFS/2206.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,6 +72,7 @@
     <SUITE FILE_PATH="coverage/BOJ$1427.coverage" NAME="1427 Coverage Results" MODIFIED="1514374431965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$32253434656.coverage" NAME="32253434656 Coverage Results" MODIFIED="1517213120424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bipartite Matching" />
     <SUITE FILE_PATH="coverage/BOJ$5567.coverage" NAME="5567 Coverage Results" MODIFIED="1511594203327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$2206.coverage" NAME="2206 Coverage Results" MODIFIED="1520673157564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS,DFS" />
     <SUITE FILE_PATH="coverage/BOJ$1261.coverage" NAME="1261 Coverage Results" MODIFIED="1520668101934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dijkstra" />
     <SUITE FILE_PATH="coverage/BOJ$2965.coverage" NAME="2965 Coverage Results" MODIFIED="1511714331902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$10451.coverage" NAME="10451 Coverage Results" MODIFIED="1512560092740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -221,24 +221,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="1261.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dijkstra/1261.py">
+      <file leaf-file-name="2206.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BFS,DFS/2206.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="308">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1504.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dijkstra/1504.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -271,7 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Dynamic Programming/10844.py" />
         <option value="$PROJECT_DIR$/Simulation/2980.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/1463.py" />
         <option value="$PROJECT_DIR$/Implementation/5212.py" />
@@ -322,6 +311,7 @@
         <option value="$PROJECT_DIR$/Dynamic Programming/1107.py" />
         <option value="$PROJECT_DIR$/Back Tracking/1759.py" />
         <option value="$PROJECT_DIR$/Dijkstra/1261.py" />
+        <option value="$PROJECT_DIR$/BFS,DFS/2206.py" />
       </list>
     </option>
   </component>
@@ -366,7 +356,7 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS,DFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1261">
+  <component name="RunManager" selected="Python.2206">
     <configuration name="1107" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,20 +444,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="2630" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2206" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS,DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Queue/2630.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS,DFS/2206.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -657,19 +647,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
-      <item index="1" class="java.lang.String" itemvalue="Python.2630" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3987" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1111" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1107" />
-      <item index="5" class="java.lang.String" itemvalue="Python.1261" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3987" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1111" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1107" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1261" />
+      <item index="5" class="java.lang.String" itemvalue="Python.2206" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1261" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1107" />
-        <item index="2" class="java.lang.String" itemvalue="Python.3987" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1111" />
-        <item index="4" class="java.lang.String" itemvalue="Python.2630" />
+        <item index="0" class="java.lang.String" itemvalue="Python.2206" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1261" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1107" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3987" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1111" />
       </list>
     </recent_temporary>
   </component>
@@ -748,13 +738,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/heapq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3483">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Back Tracking.py" />
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/1697.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1011,6 +994,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dijkstra/1261.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dijkstra/1504.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
@@ -1019,10 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dijkstra/1261.py">
+    <entry file="file://$PROJECT_DIR$/BFS,DFS/2206.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="308">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
