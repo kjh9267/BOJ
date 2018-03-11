@@ -5,14 +5,15 @@ from collections import deque
 def bfs(a,b):
     queue = deque()
     queue.append((a,b))
+    visit[b][a] = 1
     while queue:
         z = queue.popleft()
-        visit[z[1]][z[0]] = 1
         for i, j in zip(dx,dy):
             y = z[1] + j
             x = z[0] + i
             if graph[y][x] > 0 and visit[y][x] is 0:
                 queue.append((x,y))
+                visit[y][x] = 1
 
 
 n, m = map(int,sys.stdin.readline().split())
