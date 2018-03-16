@@ -35,6 +35,6 @@ graph[m] = 1
 visit = [0 for _ in range(100001)]
 visit[n] = 1
 adds = (-1,1,-a,a,-b,b)
-multiples = (-a,a,-b,b)
+multiples = (a,b)
 
 print(bfs())
