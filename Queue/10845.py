@@ -1,27 +1,33 @@
-b = []
-for i in range(input()):
-    a = raw_input()
-    if a[:4] == 'push':
-        b.append(a[5:])
-    elif a[:3] == 'pop':
-        if len(b) != 0:
-            print b.pop(0)
+import sys
+from collections import deque
+
+queue = deque()
+n = int(sys.stdin.readline())
+
+for _ in range(n):
+    command = sys.stdin.readline().rstrip()
+    x = command[:3]
+    if x == 'pus':
+        queue.append(int(command.split()[-1]))
+    elif x == 'pop':
+        if queue:
+            print(queue.popleft())
         else:
-            print -1
-    elif a[:4] == 'size':
-        print len(b)
-    elif a[:5] == 'empty':
-        if len(b) == 0:
-            print 1
+            print(-1)
+    elif x == 'siz':
+        print(len(queue))
+    elif x == 'emp':
+        if queue:
+            print(0)
         else:
-            print 0
-    elif a[:5] == 'front':
-        if len(b) == 0:
-            print -1
+            print(1)
+    elif x == 'fro':
+        if queue:
+            print(queue[0])
         else:
-            print b[0]
+            print(-1)
     else:
-        if len(b) == 0:
-            print -1
+        if queue:
+            print(queue[-1])
         else:
-            print b[-1]
+            print(-1)
