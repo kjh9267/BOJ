@@ -58,11 +58,12 @@ while pq.qsize():
                     res2[y][x] = dist + (length ** 2)
                     pq.put((res2[y][x], (x, y)))
 
-result = []
+result = graph[0][0]
 
 for i in range(n):
     for j in range(m):
         if res[i][j] + res2[i][j] <= d:
-            result.append(graph[i][j])
+            if result < graph[i][j]:
+                result = graph[i][j]
 
-print(max(result))
+print(result)
