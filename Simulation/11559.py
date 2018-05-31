@@ -32,12 +32,12 @@ def delete(x,y):
 
 
 def down(x,y):
-    color = graph[y][x]
-    for i in range(y,11):
-        if graph[i+1][x] == '.':
-            graph[i][x] = '.'
-            graph[i+1][x] = color
-        elif graph[i+1][x] != '.':
+    color = graph[y][x]             # 블럭 색깔
+    for i in range(y,11):           # 블럭 위치부터 밑에서 두번째 줄 까지
+        if graph[i+1][x] == '.':    # 다음 줄이 빈공간 이면
+            graph[i][x] = '.'       # 현재 비우고
+            graph[i+1][x] = color   # 다음줄 블럭으로 채우고
+        elif graph[i+1][x] != '.':  # 다음줄 블럭이면 끝
             break
 
 
@@ -58,10 +58,10 @@ while change:
                     delete(j,i)
                     change = True
 
-    for i in range(10,-1,-1):
+    for i in range(10,-1,-1):       # 밑에서 두번째 줄 부터 검사
         for j in range(6):
-            if graph[i][j] != '.':
-                down(j,i)
+            if graph[i][j] != '.':  # 빈공간이 아니면 ( 블럭이면 )
+                down(j,i)           # 떨구는 함수 호출
 
     if change:
         result += 1
