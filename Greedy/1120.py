@@ -14,4 +14,4 @@ for i in range(diff):
             cnt += 1
     result = min(result,cnt)
 
-print(result)
+print(result) 
