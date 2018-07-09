@@ -9,4 +9,4 @@ for i in range(n-1):
 
 res += points[n-1][0]*points[0][1] - points[n-1][1]*points[0][0]
 
-print(round(abs(res/2),2))
+print(round(abs(res/2),2)) 
