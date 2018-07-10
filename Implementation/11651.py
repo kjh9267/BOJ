@@ -1,4 +1,4 @@
 import sys
-
-for i in sorted([list(reversed(list(map(int,sys.stdin.readline().split())))) for _ in range(int(sys.stdin.readline()))]):
+a = sys.stdin.readline
+for i in sorted([list(reversed(list(map(int,a().split())))) for _ in range(int(a()))]):
     print(i[1],i[0])
