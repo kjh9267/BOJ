@@ -1,4 +1,6 @@
-for i in range(input()):
+import sys
+
+for i in range(int(sys.stdin.readline())):
     n = input()
     a = range(1,n+1)
     b = map(int,raw_input().split())
