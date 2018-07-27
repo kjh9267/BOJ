@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Graph/9466.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network Flow/15892.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph/2668.py" afterPath="$PROJECT_DIR$/Graph/2668.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,6 +120,7 @@
     <SUITE FILE_PATH="coverage/BOJ$2193.coverage" NAME="2193 Coverage Results" MODIFIED="1518865915294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic Programming" />
     <SUITE FILE_PATH="coverage/BOJ$6416.coverage" NAME="6416 Coverage Results" MODIFIED="1531217030376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tree" />
     <SUITE FILE_PATH="coverage/BOJ$1486__1_.coverage" NAME="1486 (1) Coverage Results" MODIFIED="1522239930325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dijkstra" />
+    <SUITE FILE_PATH="coverage/BOJ$2098.coverage" NAME="2098 Coverage Results" MODIFIED="1532674848415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic Programming" />
     <SUITE FILE_PATH="coverage/BOJ$1205.coverage" NAME="1205 Coverage Results" MODIFIED="1531032778430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Implementation" />
     <SUITE FILE_PATH="coverage/BOJ$5576.coverage" NAME="5576 Coverage Results" MODIFIED="1510214707416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$2839.coverage" NAME="2839 Coverage Results" MODIFIED="1509790921272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -230,6 +230,7 @@
     <SUITE FILE_PATH="coverage/BOJ$1056.coverage" NAME="1056 Coverage Results" MODIFIED="1531038857887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear Search" />
     <SUITE FILE_PATH="coverage/BOJ$1718.coverage" NAME="1718 Coverage Results" MODIFIED="1519906450579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String Handling" />
     <SUITE FILE_PATH="coverage/BOJ$2914.coverage" NAME="2914 Coverage Results" MODIFIED="1509700977564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$15892.coverage" NAME="15892 Coverage Results" MODIFIED="1532693349438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network Flow" />
     <SUITE FILE_PATH="coverage/BOJ$1520.coverage" NAME="1520 Coverage Results" MODIFIED="1519648300692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS,DFS" />
     <SUITE FILE_PATH="coverage/BOJ$2941.coverage" NAME="2941 Coverage Results" MODIFIED="1519813636096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String Handling" />
     <SUITE FILE_PATH="coverage/BOJ$11404.coverage" NAME="11404 Coverage Results" MODIFIED="1531042013381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Floyd" />
@@ -303,12 +304,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2668.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Graph/2668.py">
+      <file leaf-file-name="15892.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Network Flow/15892.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="252">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -344,8 +347,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Linear Search/1056.py" />
-        <option value="$PROJECT_DIR$/Floyd/11404.py" />
         <option value="$PROJECT_DIR$/BFS,DFS/4963.py" />
         <option value="$PROJECT_DIR$/CCW.py" />
         <option value="$PROJECT_DIR$/CCW/2166.py" />
@@ -395,6 +396,8 @@
         <option value="$PROJECT_DIR$/BFS,DFS/2668.py" />
         <option value="$PROJECT_DIR$/Graph/2668.py" />
         <option value="$PROJECT_DIR$/Graph/9466.py" />
+        <option value="$PROJECT_DIR$/Dynamic Programming/2098.py" />
+        <option value="$PROJECT_DIR$/Network Flow/15892.py" />
       </list>
     </option>
   </component>
@@ -433,6 +436,11 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
+              <item name="Network Flow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,8 +485,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9466 (1)">
-    <configuration name="1420" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.15892">
+    <configuration name="15892" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -491,7 +499,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Flow/1420.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Flow/15892.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="2098" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BOJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/2098.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -510,24 +536,6 @@
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/2668.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="4184" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dijkstra" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BOJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dijkstra/4184.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -735,19 +743,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
-      <item index="1" class="java.lang.String" itemvalue="Python.4184" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1420" />
-      <item index="3" class="java.lang.String" itemvalue="Python.9466" />
-      <item index="4" class="java.lang.String" itemvalue="Python.9466 (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.2668" />
+      <item index="1" class="java.lang.String" itemvalue="Python.9466" />
+      <item index="2" class="java.lang.String" itemvalue="Python.9466 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2668" />
+      <item index="4" class="java.lang.String" itemvalue="Python.2098" />
+      <item index="5" class="java.lang.String" itemvalue="Python.15892" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.9466 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2668" />
-        <item index="2" class="java.lang.String" itemvalue="Python.9466" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1420" />
-        <item index="4" class="java.lang.String" itemvalue="Python.4184" />
+        <item index="0" class="java.lang.String" itemvalue="Python.15892" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2098" />
+        <item index="2" class="java.lang.String" itemvalue="Python.9466 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2668" />
+        <item index="4" class="java.lang.String" itemvalue="Python.9466" />
       </list>
     </recent_temporary>
   </component>
@@ -835,14 +843,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Back Tracking/2795.py" />
-    <entry file="file://$PROJECT_DIR$/BFS,DFS/1600.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS,DFS/1697.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -957,34 +957,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bellman Ford/2129.py" />
-    <entry file="file://$PROJECT_DIR$/Network Flow/6086.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Network Flow/2188.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Network Flow/2316.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bipartite Matching/2188.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS,DFS/10216.py" />
     <entry file="file://$PROJECT_DIR$/BFS,DFS/1707.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1095,6 +1067,56 @@
         <state relative-caret-position="336">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/2098.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bipartite Matching/2188.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network Flow/6086.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network Flow/2316.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-940">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network Flow/2188.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1388">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network Flow/15892.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
