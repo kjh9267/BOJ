@@ -10,7 +10,6 @@ def dfs(node):
         dfs(graph[node])
     if visit[node] is 1:
         visit[node] = 0
-    return visit[node]
 
 
 n = int(sys.stdin.readline())
