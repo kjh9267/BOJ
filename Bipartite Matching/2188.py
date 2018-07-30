@@ -1,10 +1,12 @@
 from sys import stdin
 
 
-def match(a):
+def dfs(a):
+    if visit[a]:
+        return False
     visit[a] = 1
     for b in graph[a]:
-        if B[b] is -1 or visit[B[b]] is 0 and match(B[b]):
+        if B[b] is -1 or dfs(B[b]):
             A[a] = b
             B[b] = a
             return True
@@ -25,6 +27,6 @@ for i in range(n):
 for i in range(n):
     if A[i] is -1:
         visit = [0 for _ in range(n)]
-        if match(i):
+        if dfs(i):
             cnt += 1
 print(cnt)
