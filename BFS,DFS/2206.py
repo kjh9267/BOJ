@@ -39,7 +39,7 @@ dx = (1,0,-1,0)
 dy = (0,1,0,-1)
 
 if n is 1 and m is 1:
-    print(0)
+    print(1)
     exit()
 
 res = bfs()
