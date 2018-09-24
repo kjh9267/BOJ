@@ -1,23 +1,27 @@
-n, m = map(int,raw_input().split())
-x = map(int,raw_input().split())
-first = 0
-last = max(x)
-y = []
-z = []
-while first <= last:
-    a = [0]*len(x)
-    for i in range(len(x)):
-        a[i] = x[i]
-    mid = (first + last)/2
-    for i in range(len(a)):
-        if a[i] > mid:
-            a[i] -= mid
+import sys
+
+
+def binary_search():
+    first = 0
+    last = trees[N-1]
+    mid = (first + last) // 2
+    while first <= last:
+        temp = 0
+        for tree in trees:
+            if tree - mid > 0:
+                temp += (tree - mid)
+        if temp == M:
+            return mid
+        elif temp < M:
+            last = mid - 1
         else:
-            a[i] = 0
-    if sum(a) >= m:
-        y.append(abs(sum(a) - m))
-        z.append(mid)
-        first = mid + 1
-    else:
-        last = mid - 1
-print z[y.index(min(y))]
+            first = mid + 1
+        mid = (first + last) // 2
+    return mid
+
+
+N, M = map(int,sys.stdin.readline().split())
+trees = sorted(list(map(int,sys.stdin.readline().split())))
+total = sum(trees)
+
+print(binary_search())
