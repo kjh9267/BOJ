@@ -6,14 +6,12 @@ def bfs():
     queue = deque()
     queue.append([0,0,[0]])
     while queue:
-        a = queue.popleft()
+        cur, cost, visited = queue.popleft()
         for i in range(n):
-            if graph[a[0]][i] > 0 and i not in a[2]:
-                a[2].append(i)
-                queue.append([i,a[1]+graph[a[0]][i],a[2][:]])
-                a[2].remove(i)
-            elif len(a[2]) == n and i is 0:
-                res.append(a[1] + graph[a[0]][0])
+            if graph[cur][i] > 0 and i not in visited:
+                queue.append([i,cost + graph[cur][i], visited + [i]])
+            elif graph[cur][i] > 0 and len(visited) == n and i is 0:
+                res.append(cost + graph[cur][0])
 
 
 n = int(sys.stdin.readline())

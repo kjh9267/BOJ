@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/1333.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BFS/10971.py" afterPath="$PROJECT_DIR$/BFS/10971.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,7 +95,7 @@
     <SUITE FILE_PATH="coverage/BOJ$2164.coverage" NAME="2164 Coverage Results" MODIFIED="1533215542708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Queue" />
     <SUITE FILE_PATH="coverage/BOJ$5014.coverage" NAME="5014 Coverage Results" MODIFIED="1520247795266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS,DFS" />
     <SUITE FILE_PATH="coverage/BOJ$11062.coverage" NAME="11062 Coverage Results" MODIFIED="1528891865242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Implementation" />
-    <SUITE FILE_PATH="coverage/BOJ$10971.coverage" NAME="10971 Coverage Results" MODIFIED="1523337712963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS,DFS" />
+    <SUITE FILE_PATH="coverage/BOJ$10971.coverage" NAME="10971 Coverage Results" MODIFIED="1537781626088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS" />
     <SUITE FILE_PATH="coverage/BOJ$1427.coverage" NAME="1427 Coverage Results" MODIFIED="1514374431965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$dfdsf.coverage" NAME="dfdsf Coverage Results" MODIFIED="1524317265455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation" />
     <SUITE FILE_PATH="coverage/BOJ$1004.coverage" NAME="1004 Coverage Results" MODIFIED="1531129598838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
@@ -327,12 +326,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1333.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Greedy/1333.py">
+      <file leaf-file-name="10971.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BFS/10971.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -369,7 +370,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Graph/9466.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/2098.py" />
         <option value="$PROJECT_DIR$/Network Flow/15892.py" />
         <option value="$PROJECT_DIR$/Bipartite Matching/2188.py" />
@@ -420,6 +420,7 @@
         <option value="$PROJECT_DIR$/Dijkstra/4184.py" />
         <option value="$PROJECT_DIR$/Binary Search/2805.py" />
         <option value="$PROJECT_DIR$/Greedy/1333.py" />
+        <option value="$PROJECT_DIR$/BFS/10971.py" />
       </list>
     </option>
   </component>
@@ -463,7 +464,7 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,21 +508,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1333">
-    <configuration name="1251" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.10971">
+    <configuration name="10971" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Implementation/1251.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/10971.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -765,19 +766,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1251" />
-      <item index="2" class="java.lang.String" itemvalue="Python.4184" />
-      <item index="3" class="java.lang.String" itemvalue="Python.2158" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2805" />
-      <item index="5" class="java.lang.String" itemvalue="Python.1333" />
+      <item index="1" class="java.lang.String" itemvalue="Python.4184" />
+      <item index="2" class="java.lang.String" itemvalue="Python.2158" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2805" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1333" />
+      <item index="5" class="java.lang.String" itemvalue="Python.10971" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1333" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2805" />
-        <item index="2" class="java.lang.String" itemvalue="Python.4184" />
-        <item index="3" class="java.lang.String" itemvalue="Python.2158" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1251" />
+        <item index="0" class="java.lang.String" itemvalue="Python.10971" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1333" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2805" />
+        <item index="3" class="java.lang.String" itemvalue="Python.4184" />
+        <item index="4" class="java.lang.String" itemvalue="Python.2158" />
       </list>
     </recent_temporary>
   </component>
@@ -844,7 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BFS,DFS/15983.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/heapq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1040,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/10971.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/11060.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1131,9 +1124,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/1333.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="224">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/2573.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1346">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/10971.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
