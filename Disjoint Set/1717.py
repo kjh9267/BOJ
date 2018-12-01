@@ -16,7 +16,6 @@ def merge(a, b):
     elif a > b:
         graph[b] += graph[a]
         graph[a] = b
-
     else:
         graph[a] += graph[b]
         graph[b] = a
