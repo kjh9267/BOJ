@@ -2,10 +2,10 @@ import sys
 
 
 def find(cur):
-    if graph[cur] < 0:
+    if parent[cur] < 0:
         return cur
-    graph[cur] = find(graph[cur])
-    return graph[cur]
+    parent[cur] = find(parent[cur])
+    return parent[cur]
 
 
 def merge(a, b):
@@ -13,16 +13,16 @@ def merge(a, b):
     b = find(b)
     if a == b:
         return
-    elif a > b:
-        graph[b] += graph[a]
-        graph[a] = b
+    elif parent[a] > parent[b]:
+        parent[b] += parent[a]
+        parent[a] = b
     else:
-        graph[a] += graph[b]
-        graph[b] = a
+        parent[a] += parent[b]
+        parent[b] = a
 
 
 n, m = map(int,sys.stdin.readline().split())
-graph = [-1 for _ in range(n+1)]
+parent = [-1 for _ in range(n+1)]
 
 for _ in range(m):
     op, a, b = map(int,sys.stdin.readline().split())
