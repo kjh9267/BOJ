@@ -1,4 +1,4 @@
-#  https://www.acmicpc.net/problem/8111
+#  https://www.acmicpc.net/problem/8112
 
 
 def bfs(num):

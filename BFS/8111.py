@@ -4,7 +4,7 @@
 def bfs(num):
     queue = __import__('collections').deque()
     queue.append(1)
-    visited = [False for _ in range(1000001)]
+    visited = [False for _ in range(20001)]
     visited[1] = True
 
     while queue:
