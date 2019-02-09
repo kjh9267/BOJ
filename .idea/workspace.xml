@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bipartite Matching/9576.py" afterPath="$PROJECT_DIR$/Bipartite Matching/9576.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bipartite Matching/11375.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -218,6 +219,7 @@
     <SUITE FILE_PATH="coverage/BOJ$1799.coverage" NAME="1799 Coverage Results" MODIFIED="1534249701381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back Tracking" />
     <SUITE FILE_PATH="coverage/BOJ$1753.coverage" NAME="1753 Coverage Results" MODIFIED="1517824158100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dijkstra" />
     <SUITE FILE_PATH="coverage/BOJ$10808.coverage" NAME="10808 Coverage Results" MODIFIED="1510230310281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOJ$11375.coverage" NAME="11375 Coverage Results" MODIFIED="1549718708141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bipartite Matching" />
     <SUITE FILE_PATH="coverage/BOJ$2294.coverage" NAME="2294 Coverage Results" MODIFIED="1519038869940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic Programming" />
     <SUITE FILE_PATH="coverage/BOJ$5585.coverage" NAME="5585 Coverage Results" MODIFIED="1510214372368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOJ$1107.coverage" NAME="1107 Coverage Results" MODIFIED="1520664232583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dynamic Programming" />
@@ -335,11 +337,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="9576.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bipartite Matching/9576.py">
+      <file leaf-file-name="11375.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bipartite Matching/11375.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2188.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bipartite Matching/2188.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -392,7 +404,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Stack/2504.py" />
         <option value="$PROJECT_DIR$/Tree/1991.py" />
         <option value="$PROJECT_DIR$/BFS,DFS/1525.py" />
         <option value="$PROJECT_DIR$/BFS,DFS/14442.py" />
@@ -443,6 +454,7 @@
         <option value="$PROJECT_DIR$/Network Flow/2188.py" />
         <option value="$PROJECT_DIR$/Bipartite Matching/2188.py" />
         <option value="$PROJECT_DIR$/Bipartite Matching/9576.py" />
+        <option value="$PROJECT_DIR$/Bipartite Matching/11375.py" />
       </list>
     </option>
   </component>
@@ -487,7 +499,7 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Network Flow" type="462c0819:PsiDirectoryNode" />
+              <item name="Bipartite Matching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -530,21 +542,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9576">
-    <configuration name="11091" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.11375">
+    <configuration name="11375" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String Handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bipartite Matching" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String Handling/11091.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bipartite Matching/11375.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -789,18 +801,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11091" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1806" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2188" />
-      <item index="5" class="java.lang.String" itemvalue="Python.9576" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1806" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2188" />
+      <item index="4" class="java.lang.String" itemvalue="Python.9576" />
+      <item index="5" class="java.lang.String" itemvalue="Python.11375" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.9576" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2188" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1806" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.11091" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11375" />
+        <item index="1" class="java.lang.String" itemvalue="Python.9576" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2188" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1806" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -888,7 +900,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/16437.py" />
     <entry file="file://$PROJECT_DIR$/Network Flow/6086.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1152,18 +1163,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bipartite Matching/2188.py">
+    <entry file="file://$PROJECT_DIR$/Bipartite Matching/9576.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="406">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bipartite Matching/9576.py">
+    <entry file="file://$PROJECT_DIR$/Bipartite Matching/2188.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bipartite Matching/11375.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
