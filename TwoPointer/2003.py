@@ -5,10 +5,7 @@ if __name__ == '__main__':
 
     N, M = map(int,input().split())
     data = list(map(int,input().split()))
-    left = 0
-    right = 0
-    acc = 0
-    res = 0
+    left, right, acc, res = 0, 0, 0, 0
     while True:
         if acc >= M:
             acc -= data[left]
