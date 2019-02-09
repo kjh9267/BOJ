@@ -1,95 +1,40 @@
-# import sys
-# from collections import deque
-#
-#
-# def bfs():
-#     queue = deque()
-#     for i in range(m):
-#         if not used[i]:
-#             dist[i] = 0
-#             queue.append(i)
-#         else:
-#             dist[i] = inf
-#
-#     while queue:
-#         a = queue.popleft()
-#         for b in range(graph[a][0],graph[a][1]):
-#             print(b)
-#             if B[b] is not -1 and dist[B[b]] is inf:
-#                 dist[B[b]] = dist[a] + 1
-#                 queue.append(B[b])
-#
-#
-# def dfs(a):
-#     for b in range(graph[a][0],graph[a][1]):
-#         if B[b] is -1 or dist[B[b]] == dist[a] + 1 and dfs(B[b]):
-#             used[a] = True
-#             A[a] = b
-#             B[b] = b
-#             return True
-#     return False
-#
-#
-# T = int(sys.stdin.readline())
-#
-# for _ in range(T):
-#     n, m = map(int,sys.stdin.readline().split())
-#     A = [-1 for _ in range(m)]
-#     B = [-1 for _ in range(n)]
-#     graph = [[] for _ in range(m)]
-#     inf = float('inf')
-#     dist = [0 for _ in range(m)]
-#     used = [False for _ in range(m)]
-#     total = 0
-#
-#     for i in range(m):
-#         a, b = map(int,sys.stdin.readline().split())
-#         graph[i].extend([a-1,b])
-#
-#     while True:
-#         bfs()
-#         f = 0
-#         for i in range(m):
-#             if not used[i] and dfs(i):
-#                 f += 1
-#         if not f:
-#             break
-#         total += f
-#
-#     print(total)
-
-import sys
+#  https://www.acmicpc.net/problem/9576
 
 
-def dfs(a):
-    if visit[a]:
+def dfs(cur):
+    if visit[cur]:
         return False
-    visit[a] = 1
-    for b in range(graph[a][0],graph[a][1]):
-        if B[b] is -1 or visit[B[b]] is 0 and dfs(B[b]):
-            A[a] = b
-            B[b] = a
+    visit[cur] = True
+    a = graph[cur][0]
+    b = graph[cur][1]
+    for nxt in range(a,b):
+        if B[nxt] is -1 or dfs(B[nxt]):
+            A[cur] = nxt
+            B[nxt] = cur
             return True
     return False
 
 
-T = int(sys.stdin.readline())
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
 
-for _ in range(T):
-    n, m = map(int,sys.stdin.readline().split())
-    A = [-1 for _ in range(m)]
-    B = [-1 for _ in range(n)]
-    graph = [[] for _ in range(m)]
-    res = 0
+    T = int(input())
 
-    for i in range(m):
-        a, b = map(int,sys.stdin.readline().split())
-        graph[i].extend([a-1,b])
+    for _ in range(T):
+        N, m = map(int,input().split())
+        A = [-1 for _ in range(m)]
+        B = [-1 for _ in range(N)]
+        graph = [[] for _ in range(m)]
+        res = 0
 
-    for i in range(m):
-        if A[i] is -1:
-            visit = [0 for _ in range(m)]
-            if dfs(i):
-                res += 1
+        for index in range(m):
+            a, b = map(int,input().split())
+            graph[index].extend([a-1,b])
 
-    print(res)
+        for index in range(m):
+            if A[index] is -1:
+                visit = [False for _ in range(m)]
+                if dfs(index):
+                    res += 1
+
+        print(res)
