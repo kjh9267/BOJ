@@ -1,13 +1,15 @@
+#  https://www.acmicpc.net/problem/2188
+
 from sys import stdin
 from collections import deque
 
 
-def match(start,end):
+def matching(start,end):
     graph[start].append(end)
-    capacity[start].append(1)
-    flow[start].append(0)
     graph[end].append(start)
+    capacity[start].append(1)
     capacity[end].append(0)
+    flow[start].append(0)
     flow[end].append(0)
 
 
@@ -16,51 +18,58 @@ def bfs():
     queue.append(0)
     way = [-1 for _ in range(sink+1)]
     while queue:
-        x = queue.popleft()
-        for i, j in enumerate(graph[x]):
-            if capacity[x][i] - flow[x][i] > 0 and way[j] is -1:
-                queue.append(j)
-                way[j] = x
-                if j is sink:
+        cur = queue.popleft()
+        for index, nxt in enumerate(graph[cur]):
+            if capacity[cur][index] - flow[cur][index] > 0 and way[nxt] is -1:
+                queue.append(nxt)
+                way[nxt] = cur
+                if nxt == sink:
                     return way
     return way
 
 
-n, m = map(int, stdin.readline().split())
-sink = n + m + 1
-graph = [[] for _ in range(sink + 1)]
-capacity = [[] for _ in range(sink + 1)]
-flow = [[] for _ in range(sink + 1)]
-total = 0
+def solve():
+    total = 0
+    while True:
+        way = bfs()
+        if way[sink] is -1:
+            break
+        f = float('inf')
+        cur = sink
+        while cur is not 0:
+            nxt = way[cur]
+            index = graph[nxt].index(cur)
+            if f > capacity[nxt][index] - flow[nxt][index]:
+                f = capacity[nxt][index] - flow[nxt][index]
+            cur = way[cur]
+        cur = sink
+        while cur is not 0:
+            nxt = way[cur]
+            flow[nxt][graph[nxt].index(cur)] += f
+            flow[cur][graph[cur].index(nxt)] -= f
+            cur = nxt
+        total += f
+    return total
 
-for i in range(1,n+1):
-    match(0,i)
 
-for i in range(n+1,sink):
-    match(i,sink)
+if __name__ == '__main__':
+    input = stdin.readline
 
-for i in range(1,n+1):
-    a = list(map(int, stdin.readline().split()))[1:]
-    for j in a:
-        match(i,n+j)
+    N, M = map(int,input().split())
+    sink = N + M + 1
+    graph = [[] for _ in range(sink + 1)]
+    capacity = [[] for _ in range(sink + 1)]
+    flow = [[] for _ in range(sink + 1)]
 
-while True:
-    res = bfs()
-    if res[sink] is -1:
-        break
-    f = float('inf')
-    node = sink
-    while node is not 0:
-        y = graph[res[node]].index(node)
-        if f > capacity[res[node]][y] - flow[res[node]][y]:
-            f = capacity[res[node]][y] - flow[res[node]][y]
-        node = res[node]
-    node = sink
-    while node is not 0:
-        y = graph[res[node]].index(node)
-        z = graph[node].index(res[node])
-        flow[res[node]][y] += f
-        flow[node][z] -= f
-        node = res[node]
-    total += f
-print(total)
+    for index in range(1,N+1):
+        matching(0, index)
+
+    for index in range(N+1,sink):
+        matching(index, sink)
+
+    for cur in range(1,N+1):
+        nodes = list(map(int,input().split()))[1:]
+        for nxt in nodes:
+            matching(cur, N + nxt)
+
+    print(solve())
