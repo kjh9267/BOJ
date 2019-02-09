@@ -338,8 +338,8 @@
       <file leaf-file-name="9576.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bipartite Matching/9576.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+            <state relative-caret-position="415">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -381,8 +381,8 @@
       <find>way[cur]</find>
       <find>node</find>
       <find>n</find>
-      <find>m</find>
       <find>a</find>
+      <find>m</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -483,11 +483,6 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Bipartite Matching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
@@ -1167,8 +1162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bipartite Matching/9576.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        <state relative-caret-position="415">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>

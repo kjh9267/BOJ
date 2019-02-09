@@ -21,19 +21,19 @@ if __name__ == '__main__':
     T = int(input())
 
     for _ in range(T):
-        N, m = map(int,input().split())
-        A = [-1 for _ in range(m)]
+        N, M = map(int,input().split())
+        A = [-1 for _ in range(M)]
         B = [-1 for _ in range(N)]
-        graph = [[] for _ in range(m)]
+        graph = [[] for _ in range(M)]
         res = 0
 
-        for index in range(m):
+        for index in range(M):
             a, b = map(int,input().split())
             graph[index].extend([a-1,b])
 
-        for index in range(m):
+        for index in range(M):
             if A[index] is -1:
-                visit = [False for _ in range(m)]
+                visit = [False for _ in range(M)]
                 if dfs(index):
                     res += 1
 
