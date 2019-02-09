@@ -1,32 +1,35 @@
-from sys import stdin
+#  https://www.acmicpc.net/problem/2188
 
 
-def dfs(a):
-    if visit[a]:
+def dfs(cur):
+    if visit[cur]:
         return False
-    visit[a] = 1
-    for b in graph[a]:
-        if B[b] is -1 or dfs(B[b]):
-            A[a] = b
-            B[b] = a
+    visit[cur] = True
+    for nxt in graph[cur]:
+        if B[nxt] is -1 or dfs(B[nxt]):
+            A[cur] = nxt
+            B[nxt] = cur
             return True
     return False
 
 
-n, m = map(int,stdin.readline().split())
-graph = [[] for _ in range(n)]
-A = [-1 for _ in range(n)]
-B = [-1 for _ in range(m)]
-cnt = 0
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
 
-for i in range(n):
-    x = list(map(int,stdin.readline().split()))[1:]
-    for j in x:
-        graph[i].append(j-1)
+    N, M = map(int,input().split())
+    graph = [[] for _ in range(N)]
+    A = [-1 for _ in range(N)]
+    B = [-1 for _ in range(M)]
+    cnt = 0
 
-for i in range(n):
-    if A[i] is -1:
-        visit = [0 for _ in range(n)]
-        if dfs(i):
-            cnt += 1
-print(cnt)
+    for cur in range(N):
+        nodes = list(map(int,input().split()))[1:]
+        for nxt in nodes:
+            graph[cur].append(nxt - 1)
+
+    for index in range(N):
+        if A[index] is -1:
+            visit = [False for _ in range(N)]
+            if dfs(index):
+                cnt += 1
+    print(cnt)
