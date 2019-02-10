@@ -1,43 +1,23 @@
+#  https://www.acmicpc.net/problem/11408
+
 import sys
 from collections import deque
 
 
 def match(u,v,c):
     graph[u].append(v)
-    cost[u][v] = c
-    capacity[u][v] = 1
-    cost[v][u] = -c
     graph[v].append(u)
+    cost[u][v] = c
+    cost[v][u] = -c
+    capacity[u][v] = 1
 
 
-n, m = map(int,sys.stdin.readline().split())
-inf = float('inf')
-end = n + m + 2
-graph = [[] for _ in range(end)]
-capacity = [[0 for __ in range(end)] for _ in range(end)]
-flow = [[0 for __ in range(end)] for _ in range(end)]
-cost = [[0 for __ in range(end)] for _ in range(end)]
-total = 0
-res = 0
-
-for i in range(1,n+1):
-    x = list(map(int,sys.stdin.readline().split()))
-
-    for j in range(1,x[0]*2+1,2):
-        match(i,x[j]+n,x[j+1])
-
-for i in range(1,n+1):
-    match(0,i,0)
-
-for i in range(n+1,end-1):
-    match(i,end-1,0)
-
-while True:
+def spfa():
     queue = deque()
     queue.append(0)
-    way = [-1 for _ in range(end)]
-    dist = [inf for _ in range(end)]
-    inQ = [False for _ in range(end)]
+    way = [-1 for _ in range(sink)]
+    dist = [inf for _ in range(sink)]
+    inQ = [False for _ in range(sink)]
     inQ[0] = True
     dist[0] = 0
     while queue:
@@ -50,18 +30,46 @@ while True:
                 if not inQ[nxt]:
                     queue.append(nxt)
                     inQ[nxt] = True
+    return way
 
-    if way[end-1] is -1:
-        break
 
-    node = end-1
-    while node is not 0:
-        total += cost[way[node]][node]
-        flow[way[node]][node] += 1
-        flow[node][way[node]] -= 1
-        node = way[node]
+def solve():
+    total = 0
+    cnt = 0
+    while True:
+        way = spfa()
+        if way[sink-1] is -1:
+            break
+        cur = sink - 1
+        while cur is not 0:
+            nxt = way[cur]
+            total += cost[nxt][cur]
+            flow[nxt][cur] += 1
+            flow[cur][nxt] -= 1
+            cur = nxt
+        cnt += 1
+    return cnt, total
 
-    res += 1
 
-print(res)
-print(total)
+if __name__ == '__main__':
+    N, M = map(int,sys.stdin.readline().split())
+    inf = float('inf')
+    sink = N + M + 2
+    graph = [[] for _ in range(sink)]
+    capacity = [[0 for col in range(sink)] for row in range(sink)]
+    flow = [[0 for col in range(sink)] for row in range(sink)]
+    cost = [[0 for col in range(sink)] for row in range(sink)]
+
+    for person in range(1,N+1):
+        data = list(map(int,sys.stdin.readline().split()))
+
+        for index in range(1, data[0] * 2 + 1, 2):
+            match(person, data[index] + N, data[index + 1])
+
+    for index in range(1, N + 1):
+        match(0, index, 0)
+
+    for index in range(N + 1, sink - 1):
+        match(index, sink - 1, 0)
+
+    print('\n'.join(map(str,solve())))
