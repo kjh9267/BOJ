@@ -15,16 +15,16 @@ def bfs():
 
 
 def dfs(cur,f):
-    if cur == N-1:
+    if cur == N - 1:
         return f
     temp = work[cur]
-    for i in range(temp,len(graph[cur])):
-        work[cur] = i
-        nxt = graph[cur][i]
-        if capacity[cur][i] > flow[cur][i] and level[nxt] == level[cur] + 1:
-            df = dfs(nxt,min(f, capacity[cur][i] - flow[cur][i]))
+    for index in range(temp,len(graph[cur])):
+        work[cur] = index
+        nxt = graph[cur][index]
+        if capacity[cur][index] > flow[cur][index] and level[nxt] == level[cur] + 1:
+            df = dfs(nxt,min(f, capacity[cur][index] - flow[cur][index]))
             if df > 0:
-                flow[cur][i] += df
+                flow[cur][index] += df
                 flow[nxt][graph[nxt].index(cur)] -= df
                 return df
     return 0
