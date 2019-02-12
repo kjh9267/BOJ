@@ -40,25 +40,22 @@ if __name__ == '__main__':
     input = __import__('sys').stdin.readline
 
     N, M = map(int,input().split())
-    sink = N * 2 + M + 2
+    sink = N + M + 2
     graph = [[] for _ in range(sink)]
     capacity = [[] for _ in range(sink)]
     flow = [[] for _ in range(sink)]
     inf = float('inf')
     total = 0
 
-    for index in range(1, N + 1):
-        init(index * 2 - 1, index * 2, 2)
-
     for person in range(1, M + 1):
         data = list(map(int,input().split()))[1:]
         for d in data:
-            init(person * 2, N * 2 + d, 1)
+            init(person, N + d, 1)
 
     for index in range(1, N + 1):
-        init(0, index * 2 - 1, 2)
+        init(0, index, 2)
 
-    for index in range(N * 2 + 1, sink - 1):
+    for index in range(N + 1, sink - 1):
         init(index, sink - 1, 1)
 
     while True:
