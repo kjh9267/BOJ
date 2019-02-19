@@ -81,6 +81,7 @@ def deep_copy():
 
 
 if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
     res = float('inf')
     dx = (0,1,0,-1)
     dy = (-1,0,1,0)
