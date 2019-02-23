@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Back Tracking/15649.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back Tracking/15684.py" afterPath="$PROJECT_DIR$/Back Tracking/15684.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -267,6 +267,7 @@
     <SUITE FILE_PATH="coverage/BOJ$5549.coverage" NAME="5549 Coverage Results" MODIFIED="1532425894685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Implementation" />
     <SUITE FILE_PATH="coverage/BOJ$1253.coverage" NAME="1253 Coverage Results" MODIFIED="1530347115769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
     <SUITE FILE_PATH="coverage/BOJ$1056.coverage" NAME="1056 Coverage Results" MODIFIED="1531038857887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear Search" />
+    <SUITE FILE_PATH="coverage/BOJ$15649.coverage" NAME="15649 Coverage Results" MODIFIED="1550925406717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back Tracking" />
     <SUITE FILE_PATH="coverage/BOJ$1718.coverage" NAME="1718 Coverage Results" MODIFIED="1519906450579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String Handling" />
     <SUITE FILE_PATH="coverage/BOJ$11657__1_.coverage" NAME="11657 (1) Coverage Results" MODIFIED="1549798108029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SPFA" />
     <SUITE FILE_PATH="coverage/BOJ$16166.coverage" NAME="16166 Coverage Results" MODIFIED="1550577056244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS" />
@@ -352,11 +353,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="15684.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Back Tracking/15684.py">
+      <file leaf-file-name="15649.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Back Tracking/15649.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="435">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -393,7 +394,6 @@
       <find>n</find>
       <find>m</find>
       <find>i</find>
-      <find>cnt</find>
       <find>xx</find>
       <find>yy</find>
       <find>[3, 3, 3, 3, 3, 3, 3, 3]</find>
@@ -403,6 +403,7 @@
       <find>go</find>
       <find>#</find>
       <find>visited</find>
+      <find>cnt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -412,7 +413,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/16437.py" />
         <option value="$PROJECT_DIR$/Sliding Window/12847.py" />
         <option value="$PROJECT_DIR$/Implementation/1158.py" />
         <option value="$PROJECT_DIR$/Implementation/1236.py" />
@@ -463,6 +463,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/DFS/15684.py" />
         <option value="$PROJECT_DIR$/Back Tracking/15684.py" />
+        <option value="$PROJECT_DIR$/Back Tracking/15649.py" />
       </list>
     </option>
   </component>
@@ -509,11 +510,6 @@
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
               <item name="Back Tracking" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="DFS" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -555,7 +551,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15684 (1)">
+  <component name="RunManager" selected="Python.15649">
+    <configuration name="15649" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Back Tracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BOJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Back Tracking/15649.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="15684 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -606,24 +620,6 @@
       <module name="BOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/16166.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="16167" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dijkstra" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BOJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dijkstra/16167.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -814,18 +810,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.6086" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.16167" />
-      <item index="3" class="java.lang.String" itemvalue="Python.16166" />
-      <item index="4" class="java.lang.String" itemvalue="Python.15684" />
-      <item index="5" class="java.lang.String" itemvalue="Python.15684 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.16166" />
+      <item index="3" class="java.lang.String" itemvalue="Python.15684" />
+      <item index="4" class="java.lang.String" itemvalue="Python.15684 (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.15649" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.15684 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.15684" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.16166" />
-        <item index="4" class="java.lang.String" itemvalue="Python.16167" />
+        <item index="0" class="java.lang.String" itemvalue="Python.15649" />
+        <item index="1" class="java.lang.String" itemvalue="Python.15684 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.15684" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.16166" />
       </list>
     </recent_temporary>
   </component>
@@ -892,7 +888,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BFS/4163.py" />
     <entry file="file://$PROJECT_DIR$/TwoPointer/12847.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1172,8 +1167,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Back Tracking/15684.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="261">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back Tracking/15649.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
