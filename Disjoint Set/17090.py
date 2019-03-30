@@ -51,7 +51,7 @@ def dfs(x, y):
     while stack:
         x, y = stack.pop()
         cur = flat(x, y)
-        direction = convert(graph[y][x])
+        direction = graph[y][x]
         next_x = x + dx[direction]
         next_y = y + dy[direction]
         if next_x < 0 or next_x >= M or next_y < 0 or next_y >= N:
@@ -60,9 +60,6 @@ def dfs(x, y):
         nxt = flat(next_x, next_y)
         if not merge(cur, nxt):
             return
-        if visited[next_y][next_x]:
-            return
-        visited[next_y][next_x] = True
         stack.append((next_x, next_y))
 
 
@@ -72,16 +69,16 @@ if __name__ == '__main__':
     dy = (-1,0,1,0)
     N, M = map(int,input().split())
     graph = [list(input().rstrip()) for _ in range(N)]
-    visited = [[False for col in range(M)] for row in range(N)]
     parent = [-1 for _ in range(N * M)]
     out = [False for _ in range(N * M)]
     res = 0
 
     for row in range(N):
         for col in range(M):
-            if visited[row][col]:
-                continue
-            visited[row][col] = True
+            graph[row][col] = convert(graph[row][col])
+
+    for row in range(N):
+        for col in range(M):
             dfs(col, row)
 
     for idx, check in enumerate(out):
