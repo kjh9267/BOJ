@@ -1,16 +1,16 @@
 # https://www.acmicpc.net/problem/17135
 
 
-def dfs(depth, cnt):
-    if cnt == 3:
+def dfs(cur, depth):
+    if depth == 3:
         # print(case)
         check()
         return
-    if depth == M:
+    if cur == M:
         return
-    dfs(depth + 1, cnt)
-    case.append(depth)
-    dfs(depth + 1, cnt + 1)
+    dfs(cur + 1, depth)
+    case.append(cur)
+    dfs(cur + 1, depth + 1)
     case.pop()
 
 
