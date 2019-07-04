@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/11376
+
+
 def init(u, v, c):
     graph[u].append(v)
     graph[v].append(u)
@@ -47,7 +50,7 @@ if __name__ == '__main__':
     inf = float('inf')
     total = 0
 
-    for person in range(1, M + 1):
+    for person in range(1, N + 1):
         data = list(map(int,input().split()))[1:]
         for d in data:
             init(person, N + d, 1)
