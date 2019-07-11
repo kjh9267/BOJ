@@ -20,4 +20,3 @@ if __name__ == '__main__':
     dp = [-1 for _ in range(10_001)]
     n = int(input())
     print(solve(n))
-
