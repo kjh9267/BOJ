@@ -1,23 +1,14 @@
-# https://www.acmicpc.net/problem/10826
-
-import sys
-sys.setrecursionlimit(99999999)
-
-
-def solve(cur):
-    if cur == 0:
-        return 0
-    if cur == 1:
-        return 1
-    if dp[cur] != -1:
-        return dp[cur]
-    dp[cur] = solve(cur - 1) + solve(cur - 2)
-    return dp[cur]
-
 
 if __name__ == '__main__':
     input = __import__('sys').stdin.readline
-    dp = [-1 for _ in range(10_001)]
-    n = int(input())
-    print(solve(n))
-
+    a, b, c = map(int,input().split(':'))
+    x, y, z = map(int,input().split(':'))
+    x = x + 23 - a
+    y = y + 59 - b
+    z = z + 60 - c
+    y += z // 60
+    z %= 60
+    x += y // 60
+    y %= 60
+    x %= 24
+    print("{:02d}:{:02d}:{:02d}".format(x,y,z))
