@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dijkstra/1719.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BFS/16948.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt.py" beforeDir="false" afterPath="$PROJECT_DIR$/tt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -371,13 +370,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dijkstra/1719.py">
+        <entry file="file://$PROJECT_DIR$/BFS/16948.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#39#70#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -432,7 +428,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DFS/15684.py" />
         <option value="$PROJECT_DIR$/Back Tracking/15684.py" />
         <option value="$PROJECT_DIR$/Back Tracking/15649.py" />
         <option value="$PROJECT_DIR$/3.py" />
@@ -483,6 +478,7 @@
         <option value="$PROJECT_DIR$/tt.py" />
         <option value="$PROJECT_DIR$/String Handling/17350.py" />
         <option value="$PROJECT_DIR$/Dijkstra/1719.py" />
+        <option value="$PROJECT_DIR$/BFS/16948.py" />
       </list>
     </option>
   </component>
@@ -516,12 +512,7 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="String Handling" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -565,7 +556,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1719">
+  <component name="RunManager" selected="Python.16948">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -645,7 +636,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="14395" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="16948" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -653,12 +644,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Junho\PycharmProjects\BOJ\BFS\14395.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/16948.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -848,18 +839,18 @@
     <list>
       <item itemvalue="Python.6086" />
       <item itemvalue="Python.tt" />
-      <item itemvalue="Python.14395" />
       <item itemvalue="Python.17252" />
       <item itemvalue="Python.17350" />
       <item itemvalue="Python.1719" />
+      <item itemvalue="Python.16948" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16948" />
         <item itemvalue="Python.1719" />
         <item itemvalue="Python.17350" />
         <item itemvalue="Python.tt" />
         <item itemvalue="Python.17252" />
-        <item itemvalue="Python.14395" />
       </list>
     </recent_temporary>
   </component>
@@ -935,7 +926,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/1267794625/_collections.py" />
     <entry file="file://$PROJECT_DIR$/BFS/2667.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1161,6 +1151,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/String Handling/17350.py" />
+    <entry file="file://$PROJECT_DIR$/Dijkstra/1719.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="e#39#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1168,13 +1168,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dijkstra/1719.py">
+    <entry file="file://$PROJECT_DIR$/BFS/16948.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#39#70#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="141">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>
