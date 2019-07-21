@@ -10,9 +10,6 @@ class Node:
         self.nxt = nxt
         self.cost = cost
 
-    def __lt__(self, other):
-        return self.cost < other.cost
-
 
 def dijkstra(start):
     pq = PriorityQueue()
