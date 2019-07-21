@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BFS/16948.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic Programming/12849.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -370,10 +370,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BFS/16948.py">
+        <entry file="file://$PROJECT_DIR$/Dynamic Programming/12849.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="414">
+              <caret line="18" column="22" lean-forward="true" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -389,10 +389,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m</find>
-      <find>i</find>
-      <find>xx</find>
-      <find>yy</find>
       <find>[3, 3, 3, 3, 3, 3, 3, 3]</find>
       <find>[3, 3, 3, 3, 3, 3, 3, 0]</find>
       <find>[3, 3, 3, 3]</find>
@@ -419,6 +415,10 @@
       <find>f</find>
       <find>temp</find>
       <find>3 - cur - node.nxt</find>
+      <find>path</find>
+      <find>add</find>
+      <find>;</find>
+      <find>1_000_000_007</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -428,7 +428,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Back Tracking/15684.py" />
         <option value="$PROJECT_DIR$/Back Tracking/15649.py" />
         <option value="$PROJECT_DIR$/3.py" />
         <option value="$PROJECT_DIR$/5.py" />
@@ -479,6 +478,7 @@
         <option value="$PROJECT_DIR$/String Handling/17350.py" />
         <option value="$PROJECT_DIR$/Dijkstra/1719.py" />
         <option value="$PROJECT_DIR$/BFS/16948.py" />
+        <option value="$PROJECT_DIR$/Dynamic Programming/12849.py" />
       </list>
     </option>
   </component>
@@ -512,7 +512,7 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="BFS" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic Programming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -556,7 +556,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16948">
+  <component name="RunManager" selected="Python.12849">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -636,6 +636,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration name="12849" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/12849.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="16948" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -672,28 +694,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dijkstra/1719.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="17252" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math/17252.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -839,18 +839,18 @@
     <list>
       <item itemvalue="Python.6086" />
       <item itemvalue="Python.tt" />
-      <item itemvalue="Python.17252" />
       <item itemvalue="Python.17350" />
       <item itemvalue="Python.1719" />
       <item itemvalue="Python.16948" />
+      <item itemvalue="Python.12849" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12849" />
         <item itemvalue="Python.16948" />
         <item itemvalue="Python.1719" />
         <item itemvalue="Python.17350" />
         <item itemvalue="Python.tt" />
-        <item itemvalue="Python.17252" />
       </list>
     </recent_temporary>
   </component>
@@ -885,7 +885,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32869378" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4935502" visible="true" weight="0.33914208" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4935502" visible="true" weight="0.3378016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3522484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -926,7 +926,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/1267794625/_collections.py" />
     <entry file="file://$PROJECT_DIR$/BFS/2667.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1161,6 +1160,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/16948.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1168,10 +1174,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/16948.py">
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/12849.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="414">
+          <caret line="18" column="22" lean-forward="true" selection-end-line="51" />
         </state>
       </provider>
     </entry>
