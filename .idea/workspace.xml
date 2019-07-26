@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic Programming/13549.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic Programming/11659.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T-T.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T^T.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T_T.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T__T.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt.py" beforeDir="false" afterPath="$PROJECT_DIR$/tt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -357,31 +363,61 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BOJ" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="20" lean-forward="true" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="1334">
+              <caret line="58" column="44" selection-start-line="57" selection-end-line="58" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Disjoint Set/11724.py">
+        <entry file="file://$PROJECT_DIR$/T__T.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="460">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/T_T.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="19" selection-end-line="71" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/T-T.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dynamic Programming/13549.py">
+        <entry file="file://$PROJECT_DIR$/Dynamic Programming/11659.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="260">
+              <caret line="12" column="22" lean-forward="true" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/T^T.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -408,7 +444,6 @@
       <find>inf</find>
       <find>out</find>
       <find>visited</find>
-      <find>n</find>
       <find>op</find>
       <find>a</find>
       <find>j</find>
@@ -426,7 +461,8 @@
       <find>;</find>
       <find>1_000_000_007</find>
       <find>4 4</find>
-      <find>4 4</find>
+      <find>n</find>
+      <find>dfs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -436,13 +472,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/4.py" />
-        <option value="$PROJECT_DIR$/Minimum Spanning Tree/4343.py" />
-        <option value="$PROJECT_DIR$/Disjoint Set/17090.py" />
-        <option value="$PROJECT_DIR$/Back Tracking/17135.py" />
-        <option value="$PROJECT_DIR$/Back Tracking/14889.py" />
-        <option value="$PROJECT_DIR$/Disjoint Set/15875.py" />
         <option value="$PROJECT_DIR$/TwoPointer/11003.py" />
         <option value="$PROJECT_DIR$/BFS/17182.py" />
         <option value="$PROJECT_DIR$/Floyd/17182.py" />
@@ -484,9 +513,16 @@
         <option value="$PROJECT_DIR$/DFS/2146.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/2011.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/1832.py" />
-        <option value="$PROJECT_DIR$/tt.py" />
         <option value="$PROJECT_DIR$/Disjoint Set/11724.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/13549.py" />
+        <option value="$PROJECT_DIR$/Dynamic Programming/14550.py" />
+        <option value="$PROJECT_DIR$/Bellman Ford/11657.py" />
+        <option value="$PROJECT_DIR$/tt.py" />
+        <option value="$PROJECT_DIR$/T_T.py" />
+        <option value="$PROJECT_DIR$/T-T.py" />
+        <option value="$PROJECT_DIR$/T__T.py" />
+        <option value="$PROJECT_DIR$/T^T.py" />
+        <option value="$PROJECT_DIR$/Dynamic Programming/11659.py" />
       </list>
     </option>
   </component>
@@ -497,8 +533,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="910" />
-    <option name="width" value="940" />
+    <option name="x" value="-10" />
+    <option name="width" value="935" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -532,7 +568,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="1238&#9;RUN_CONFIGURATION&#9;1238&#10;123&#9;RUN_CONFIGURATION&#9;1238&#10;5032&#9;FILE&#9;file://C:/Users/Junho/PycharmProjects/BOJ/구현/5032.py&#10;5585&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teleconveni24final" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -564,7 +600,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13549">
+  <component name="RunManager" selected="Python.11659">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -644,29 +680,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="11724" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Disjoint Set" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Disjoint Set/11724.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="13549" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11659" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -679,51 +693,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/13549.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2011" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/2011.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2146" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/2146.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/11659.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -746,6 +716,94 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Flow/6086.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="T-T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T-T.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="T_T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T_T.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="T^T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T^T.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="T__T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T__T.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -846,19 +904,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.6086" />
-      <item itemvalue="Python.2146" />
       <item itemvalue="Python.tt" />
-      <item itemvalue="Python.2011" />
-      <item itemvalue="Python.11724" />
-      <item itemvalue="Python.13549" />
+      <item itemvalue="Python.T_T" />
+      <item itemvalue="Python.T-T" />
+      <item itemvalue="Python.T__T" />
+      <item itemvalue="Python.11659" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.13549" />
-        <item itemvalue="Python.11724" />
+        <item itemvalue="Python.11659" />
+        <item itemvalue="Python.T__T" />
+        <item itemvalue="Python.T-T" />
+        <item itemvalue="Python.T_T" />
         <item itemvalue="Python.tt" />
-        <item itemvalue="Python.2011" />
-        <item itemvalue="Python.2146" />
       </list>
     </recent_temporary>
   </component>
@@ -888,18 +946,18 @@
     <frame x="-7" y="-7" width="1487" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="764" y="61" width="312" height="958" id="Project" order="0" visible="true" weight="0.226051" />
+      <window_info content_ui="combo" x="764" y="61" width="312" height="958" id="Project" order="0" visible="true" weight="0.226051" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32869378" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4935502" visible="true" weight="0.33378017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4935502" visible="true" weight="0.33378017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3522484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064498" side_tool="true" weight="0.3875803" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32869378" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32841823" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32762313" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32841823" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -908,82 +966,11 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32978126" />
       <window_info anchor="right" id="Data View" order="4" weight="0.32978126" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" x="764" y="61" width="312" height="958" id="Project" order="0" visible="true" weight="0.226051" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32869378" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4935502" weight="0.33378017" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3522484" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064498" side_tool="true" weight="0.3875803" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32869378" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32762313" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32869378" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32978126" />
-      <window_info anchor="right" id="Data View" order="4" weight="0.32978126" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Disjoint Set/17090.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disjoint Set/15875.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwoPointer/11003.py" />
-    <entry file="file://$PROJECT_DIR$/BFS/17182.py" />
-    <entry file="file://$PROJECT_DIR$/Floyd/11562.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-313451744/itertools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="463" column="6" selection-start-line="463" selection-start-column="6" selection-end-line="463" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/10971.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/11722.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/11053.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linked List/1406.py" />
     <entry file="file://$PROJECT_DIR$/test2.py" />
     <entry file="file://$PROJECT_DIR$/Floyd/17182.py">
@@ -1155,31 +1142,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/2011.py" />
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/1832.py">
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/1832.py" />
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/13549.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="20" lean-forward="true" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Disjoint Set/11724.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="394">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/13549.py">
+    <entry file="file://$PROJECT_DIR$/Minimum Spanning Tree/4343.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#41#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/14550.py" />
+    <entry file="file://$PROJECT_DIR$/Bellman Ford/1865.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bellman Ford/11657.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="44" selection-start-line="57" selection-end-line="58" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T__T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="19" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/11659.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="22" lean-forward="true" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T-T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T^T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
