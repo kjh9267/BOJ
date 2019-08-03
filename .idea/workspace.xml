@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BFS/9019.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulation/1966.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T_T.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/T^T.py" beforeDir="false" afterPath="$PROJECT_DIR$/T^T.py" afterDir="false" />
     </list>
@@ -367,17 +368,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/T^T.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BFS/9019.py">
+        <entry file="file://$PROJECT_DIR$/Simulation/1966.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="171">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/T_T.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -432,7 +442,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Linked List/1406.py" />
         <option value="$PROJECT_DIR$/Implementation/1406.py" />
         <option value="$PROJECT_DIR$/Implementation/14919.py" />
         <option value="$PROJECT_DIR$/Line Sweeping/14919.py" />
@@ -472,17 +481,18 @@
         <option value="$PROJECT_DIR$/Dynamic Programming/14550.py" />
         <option value="$PROJECT_DIR$/Bellman Ford/11657.py" />
         <option value="$PROJECT_DIR$/tt.py" />
-        <option value="$PROJECT_DIR$/T_T.py" />
         <option value="$PROJECT_DIR$/T-T.py" />
         <option value="$PROJECT_DIR$/T__T.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/11659.py" />
         <option value="$PROJECT_DIR$/Disjoint Set/17352.py" />
         <option value="$PROJECT_DIR$/Divide and Conquer/2630.py" />
         <option value="$PROJECT_DIR$/DFS/1595.py" />
-        <option value="$PROJECT_DIR$/T^T.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/4150.py" />
         <option value="$PROJECT_DIR$/Back Tracking/1342.py" />
         <option value="$PROJECT_DIR$/BFS/9019.py" />
+        <option value="$PROJECT_DIR$/T^T.py" />
+        <option value="$PROJECT_DIR$/T_T.py" />
+        <option value="$PROJECT_DIR$/Simulation/1966.py" />
       </list>
     </option>
   </component>
@@ -505,6 +515,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -515,13 +526,12 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="BFS" type="462c0819:PsiDirectoryNode" />
+              <item name="Simulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -560,7 +570,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9019">
+  <component name="RunManager" selected="Python.T_T">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -662,7 +672,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2630" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1966" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -670,34 +680,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Divide and Conquer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Divide and Conquer/2630.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4150" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/4150.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulation/1966.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -764,6 +752,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T^T.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="T_T" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T_T.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -865,18 +875,18 @@
     <list>
       <item itemvalue="Python.6086" />
       <item itemvalue="Python.T^T" />
-      <item itemvalue="Python.4150" />
-      <item itemvalue="Python.2630" />
       <item itemvalue="Python.1342" />
       <item itemvalue="Python.9019" />
+      <item itemvalue="Python.1966" />
+      <item itemvalue="Python.T_T" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.T_T" />
+        <item itemvalue="Python.1966" />
+        <item itemvalue="Python.T^T" />
         <item itemvalue="Python.9019" />
         <item itemvalue="Python.1342" />
-        <item itemvalue="Python.T^T" />
-        <item itemvalue="Python.2630" />
-        <item itemvalue="Python.4150" />
       </list>
     </recent_temporary>
   </component>
@@ -917,7 +927,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064498" side_tool="true" weight="0.3875803" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3266399" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32573727" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32841823" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -930,7 +940,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/2676.py" />
     <entry file="file://$PROJECT_DIR$/BFS/16928.py" />
     <entry file="file://$PROJECT_DIR$/Implementation/6986.py" />
     <entry file="file://$PROJECT_DIR$/BFS/1525.py" />
@@ -1014,7 +1023,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tt.py" />
     <entry file="file://$PROJECT_DIR$/T__T.py" />
-    <entry file="file://$PROJECT_DIR$/T_T.py" />
     <entry file="file://$PROJECT_DIR$/T-T.py" />
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/11659.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1137,17 +1145,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Back Tracking/1342.py" />
-    <entry file="file://$PROJECT_DIR$/T^T.py">
+    <entry file="file://$PROJECT_DIR$/BFS/9019.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="59">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/9019.py">
+    <entry file="file://$PROJECT_DIR$/T^T.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T_T.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/1966.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
