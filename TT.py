@@ -1,33 +1,26 @@
 if __name__ =='__main__':
     input = __import__('sys').stdin.readline
 
-    N, M = map(int,input().split())
+    data = [3, 5, 7, 9, 8, 0, 1, 4, 2, 6]
 
-    grid = [list(map(int,input().split())) for _ in range(N)]
+    print(data)
 
-    r1, c1, r2, c2 = 0, 0, 0, 0
+    # bubble
+    # for i in range(10):
+    #     for j in range(10 - i - 1):
+    #         if data[j] > data[j + 1]:
+    #             data[j + 1], data[j] = data[j], data[j + 1]
 
-    key = False
-    for i in range(N):
-        for j in range(M):
-            if grid[i][j] == 1:
-                r1 = i
-                c1 = j
-                grid[i][j] = 0
-                key=True
-                break
-        if key:
-            break
+    # selection
+    # for i in range(9):
+    #     num = data[i]
+    #     target = i
+    #     for j in range(i, 10):
+    #         if data[j] < num:
+    #             num = data[j]
+    #             target = j
+    #     data[i], data[target] = data[target], data[i]
 
-    key = False
-    for i in range(N):
-        for j in range(M):
-            if grid[i][j] == 1:
-                r2 = i
-                c2 = j
-                key = True
-                break
-        if key:
-            break
 
-    print(abs(r1 - r2) + abs(c1 - c2))
+
+    print(data)
