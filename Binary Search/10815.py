@@ -1,36 +1,29 @@
-n = input()
-a = map(int,raw_input().split())
-m = input()
-b = map(int,raw_input().split())
-c = set(a).intersection(set(b))
-d = []
-for i in range(len(b)):
-    if b[i] in c:
-        d.append('1')
-    else:
-        d.append('0')
-print " ".join(d)
-'''
-def search(arr,len,target):
-    first = 0
-    last = len - 1
-    mid = 0
-    while first <= last:
-        mid = (first + last)/2
-        if arr[mid] == target:
-            return 1
+# https://www.acmicpc.net/problem/10815
+
+
+def bs(num):
+    lo = -1
+    hi = N
+    while lo + 1 < hi:
+        mid = (lo + hi) >> 1
+        if A[mid] == num:
+            return True
+        if A[mid] > num:
+            hi = mid
         else:
-            if arr[mid] > target:
-                last = mid - 1
-            else:
-                first = mid + 1
-    return 0
-n = input()
-a = sorted(map(int,raw_input().split()))
-m = input()
-b = map(int,raw_input().split())
-c = []
-for i in range(len(b)):
-     c.append(search(a,len(a),b[i]))
-print " ".join([str(c[i]) for i in range(len(c))])
-'''
+            lo = mid
+    return False
+
+
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    N = int(input())
+    A = list(sorted(map(int, input().split())))
+    M = int(input())
+    B = list(map(int, input().split()))
+    res = ''
+
+    for num in B:
+        res += '{} '.format(1 if bs(num) else 0)
+
+    print(res)
