@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Minimum Spanning Tree/4650.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BFS/14940.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TT.py" beforeDir="false" afterPath="$PROJECT_DIR$/TT.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -367,17 +366,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Minimum Spanning Tree/4650.py">
+        <entry file="file://$PROJECT_DIR$/BFS/14940.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="377">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -432,7 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Dijkstra/1719.py" />
         <option value="$PROJECT_DIR$/DFS/2146.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/1832.py" />
         <option value="$PROJECT_DIR$/Disjoint Set/11724.py" />
@@ -483,6 +481,7 @@
         <option value="$PROJECT_DIR$/Binary Search/7453.py" />
         <option value="$PROJECT_DIR$/TT.py" />
         <option value="$PROJECT_DIR$/Minimum Spanning Tree/4650.py" />
+        <option value="$PROJECT_DIR$/BFS/14940.py" />
       </list>
     </option>
   </component>
@@ -511,11 +510,6 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Minimum Spanning Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -560,7 +554,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4650">
+  <component name="RunManager" selected="Python.14940">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -662,7 +656,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10815" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14940" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -670,12 +664,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Binary Search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary Search/10815.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/14940.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -842,19 +836,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.6086" />
-      <item itemvalue="Python.10815" />
       <item itemvalue="Python.1072" />
       <item itemvalue="Python.7453" />
       <item itemvalue="Python.TT" />
       <item itemvalue="Python.4650" />
+      <item itemvalue="Python.14940" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14940" />
         <item itemvalue="Python.4650" />
         <item itemvalue="Python.7453" />
         <item itemvalue="Python.TT" />
         <item itemvalue="Python.1072" />
-        <item itemvalue="Python.10815" />
       </list>
     </recent_temporary>
   </component>
@@ -882,20 +876,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="764" y="61" width="312" height="958" id="Project" order="0" visible="true" weight="0.22589532" />
+      <window_info active="true" content_ui="combo" x="764" y="61" width="312" height="958" id="Project" order="0" visible="true" weight="0.22589532" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32869378" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4935502" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4935502" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35120642" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064498" side_tool="true" weight="0.3875803" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3230563" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3230563" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32841823" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -908,13 +903,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/12849.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/11727.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1114,17 +1102,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TT.py">
+    <entry file="file://$PROJECT_DIR$/Minimum Spanning Tree/4650.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="302">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minimum Spanning Tree/4650.py">
+    <entry file="file://$PROJECT_DIR$/TT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/14940.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
