@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic Programming/17245.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Implementation/2823.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TT.py" beforeDir="false" afterPath="$PROJECT_DIR$/TT.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -366,17 +367,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dynamic Programming/17245.py">
+        <entry file="file://$PROJECT_DIR$/Implementation/2823.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="34" lean-forward="true" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="368">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -431,7 +432,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bellman Ford/11657.py" />
         <option value="$PROJECT_DIR$/tt.py" />
         <option value="$PROJECT_DIR$/T-T.py" />
         <option value="$PROJECT_DIR$/T__T.py" />
@@ -479,9 +479,10 @@
         <option value="$PROJECT_DIR$/BFS/12782.py" />
         <option value="$PROJECT_DIR$/DFS/15559.py" />
         <option value="$PROJECT_DIR$/Disjoint Set/15559.py" />
-        <option value="$PROJECT_DIR$/TT.py" />
         <option value="$PROJECT_DIR$/Implementation/17245.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/17245.py" />
+        <option value="$PROJECT_DIR$/TT.py" />
+        <option value="$PROJECT_DIR$/Implementation/2823.py" />
       </list>
     </option>
   </component>
@@ -514,7 +515,7 @@
             <path>
               <item name="BOJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BOJ" type="462c0819:PsiDirectoryNode" />
-              <item name="Dynamic Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -559,7 +560,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17245">
+  <component name="RunManager" selected="Python.2823">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -705,7 +706,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4650" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2823" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -713,12 +714,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Minimum Spanning Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Implementation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Minimum Spanning Tree/4650.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Implementation/2823.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -842,18 +843,18 @@
     <list>
       <item itemvalue="Python.6086" />
       <item itemvalue="Python.TT" />
-      <item itemvalue="Python.4650" />
       <item itemvalue="Python.14940" />
       <item itemvalue="Python.15559" />
       <item itemvalue="Python.17245" />
+      <item itemvalue="Python.2823" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2823" />
         <item itemvalue="Python.17245" />
         <item itemvalue="Python.15559" />
         <item itemvalue="Python.TT" />
         <item itemvalue="Python.14940" />
-        <item itemvalue="Python.4650" />
       </list>
     </recent_temporary>
   </component>
@@ -908,9 +909,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/11052.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/10870.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1119,13 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2100469904/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1135,8 +1126,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/17245.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="34" lean-forward="true" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="-173">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Implementation/2823.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
