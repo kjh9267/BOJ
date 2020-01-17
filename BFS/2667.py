@@ -1,35 +1,54 @@
-def bfs(graph,visit,start):
-    queue = [start]
-    home = 0
-    while len(queue) is not 0:
-        x = queue.pop(0)
-        if visit[x[0]][x[1]] == 0:
-            visit[x[0]][x[1]] = 1
-            home += 1
-            if x[0] - 1 >= 0:
-                if graph[x[0]-1][x[1]] == 1 and [x[0]-1,x[1]] not in queue and visit[x[0]-1][x[1]] == 0:
-                    queue.append([x[0]-1,x[1]])
-            if x[1] - 1 >= 0:
-                if graph[x[0]][x[1]-1] == 1 and [x[0],x[1]-1] not in queue and visit[x[0]][x[1]-1] == 0:
-                    queue.append([x[0],x[1]-1])
-            if x[0] + 1 < n:
-                if graph[x[0]+1][x[1]] == 1 and [x[0]+1,x[1]] not in queue and visit[x[0]+1][x[1]] == 0:
-                    queue.append([x[0]+1,x[1]])
-            if x[1] + 1 < n:
-                if graph[x[0]][x[1]+1] == 1 and [x[0],x[1]+1] not in queue and visit[x[0]][x[1]+1] == 0:
-                    queue.append([x[0],x[1]+1])
-    return home
-n = input()
-graph = [map(int,list(raw_input())) for i in range(n)]
-visit = [[0 for j in range(n)] for i in range(n)]
-cnt = 0
-res = []
-for i in range(n):
-    for j in range(n):
-        if graph[i][j] == 1 and visit[i][j] == 0:
-            res.append(bfs(graph,visit,[i,j]))
+from sys import stdin
+from collections import deque
+
+
+class Node:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
+def bfs(x, y):
+    queue = deque()
+    queue.append(Node(x, y))
+    visited[y][x] = True
+    home_number = 0
+    while queue:
+        cur = queue.popleft()
+        home_number += 1
+        for diff_x, diff_y in direction:
+            next_x = cur.x + diff_x
+            next_y = cur.y + diff_y
+            if not (0 <= next_y < N and 0 <= next_x < N):
+                continue
+            if grid[next_y][next_x] == '0':
+                continue
+            if visited[next_y][next_x]:
+                continue
+            queue.append(Node(next_x, next_y))
+            visited[next_y][next_x] = True
+
+    return home_number
+
+
+if __name__ == '__main__':
+    input = stdin.readline
+    direction = ((1, 0), (0, 1), (-1, 0), (0, -1))
+    N = int(input())
+    grid = [input().rstrip() for _ in range(N)]
+    visited = [[False for _ in range(N)] for _ in range(N)]
+    cnt = 0
+    res = list()
+
+    for row in range(N):
+        for col in range(N):
+            if grid[row][col] == '0' or visited[row][col]:
+                continue
+            res.append(bfs(col, row))
             cnt += 1
-res = sorted(res)
-print cnt
-for i in range(cnt):
-    print res[i]
+
+    res.sort()
+    print(cnt)
+
+    for size in res:
+        print(size)
