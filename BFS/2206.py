@@ -1,50 +1,44 @@
-import sys
-from collections import deque
+# https://www.acmicpc.net/problem/2206
+
+
+class Node:
+    def __init__(self, x, y, cnt):
+        self.x = x
+        self.y = y
+        self.cnt = cnt
 
 
 def bfs():
-    queue = deque()
-    queue.append((0,0,0))
-    level = deque()
-    visit[0][0] = [1,1]
-    cnt = 1
+    queue = __import__('collections').deque()
+    visited = [[[-1, -1] for _ in range(M)] for _ in range(N)]
+    queue.append(Node(0, 0, 0))
+    visited[0][0] = [1, 1]
+
     while queue:
-        a = queue.popleft()
-        for i, j in zip(dx,dy):
-            x = i + a[0]
-            y = j + a[1]
-            if 0 <= x < m and 0 <= y < n:
-                if x == m-1 and y == n-1:
-                    return cnt + 1
-                if a[2] is 0 and visit[y][x][0] is 0:
-                    if graph[y][x] is 1:
-                        level.append((x,y,1))
-                        visit[y][x][1] = 1
-                    else:
-                        level.append((x,y,0))
-                        visit[y][x][0] = 1
-                elif a[2] is 1 and visit[y][x][1] is 0 and graph[y][x] is 0:
-                    level.append((x,y,1))
-                    visit[y][x][1] = 1
-        if not queue:
-            queue.extend(level)
-            level.clear()
-            cnt += 1
+        cur = queue.popleft()
+        for diff_x, diff_y in zip(dx, dy):
+            next_x = cur.x + diff_x
+            next_y = cur.y + diff_y
+            if not (0 <= next_x < M and 0 <= next_y < N):
+                continue
+            value = grid[next_y][next_x]
+            if value == '0' and visited[next_y][next_x][cur.cnt] == -1:
+                visited[next_y][next_x][cur.cnt] = visited[cur.y][cur.x][cur.cnt] + 1
+                queue.append(Node(next_x, next_y, cur.cnt))
+            elif value == '1' and cur.cnt == 0 and visited[next_y][next_x][1] == -1:
+                visited[next_y][next_x][1] = visited[cur.y][cur.x][0] + 1
+                queue.append(Node(next_x, next_y, 1))
+
+    mini = min(visited[N - 1][M - 1])
+    maxi = max(visited[N - 1][M - 1])
+    return mini if mini != -1 else maxi
 
 
-n, m = map(int,sys.stdin.readline().split())
-graph = [list(map(int,sys.stdin.readline().rstrip())) for _ in range(n)]
-visit = [[[0,0] for j in range(m)] for i in range(n)]
-dx = (1,0,-1,0)
-dy = (0,1,0,-1)
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    dx = (1, 0, -1, 0)
+    dy = (0, 1, 0, -1)
+    N, M = map(int, input().split())
+    grid = [input().rstrip() for _ in range(N)]
 
-if n is 1 and m is 1:
-    print(1)
-    exit()
-
-res = bfs()
-
-if res is None:
-    print(-1)
-else:
-    print(res)
+    print(bfs())
