@@ -1,37 +1,62 @@
-import sys
-from collections import deque # 파이썬에서 일반 list로 queue를 구현할 경우 pop할 때 O(1)이 아닌 O(n)이 걸리므로 deque사용
+# https://www.acmicpc.net/problem/1012
+
+from sys import stdin
+from collections import deque
+
+
+class Node:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
+def solve():
+    cnt = 0
+    for row in range(N):
+        for col in range(M):
+            if not grid[row][col]:
+                continue
+            if visited[row][col]:
+                continue
+            bfs(Node(col, row))
+            cnt += 1
+    return cnt
 
 
 def bfs(node):
     queue = deque()
     queue.append(node)
-    xx = [1, 0, -1, 0]
-    yy = [0, 1, 0, -1]
-    while queue:  # queue가 빌 때 까지 반복
-        a = queue.popleft()
-        visit[a[1]][a[0]] = 1
-        # 인접 좌표에 배추가 있고, 아직 방문하지 않고, queue에 들어 있지 않을 때 queue에 append 해준다
-        for i in range(4):
-            dx = a[0] + xx[i]
-            dy = a[1] + yy[i]
-            if 0 <= dy < n and 0 <= dx < m:
-                if graph[dy][dx] is 1 and visit[dy][dx] is 0 and [dx,dy] not in queue:
-                    queue.append([dx,dy])
+    visited[node.y][node.x] = True
+
+    while queue:
+        cur = queue.popleft()
+
+        for diff_x, diff_y in zip(dx, dy):
+            next_x = cur.x + diff_x
+            next_y = cur.y + diff_y
+            if not (0 <= next_y < N and 0 <= next_x < M):
+                continue
+            if not grid[next_y][next_x]:
+                continue
+            if visited[next_y][next_x]:
+                continue
+            visited[next_y][next_x] = True
+            queue.append(Node(next_x, next_y))
 
 
-t = int(sys.stdin.readline()) # test케이스의 수
-for _ in range(t):
-    m, n, k = map(int,sys.stdin.readline().split())  # 가로길이, 세로길이, 배추의 수
-    graph = [[0 for j in range(m)] for i in range(n)]
-    visit = [[0 for j in range(m)] for i in range(n)]
-    cnt = 0
+if __name__ == '__main__':
+    input = stdin.readline
+    dx = (1, 0, -1, 0)
+    dy = (0, 1, 0, -1)
+    T = int(input())
 
-    for i in range(k):
-        x, y = map(int, sys.stdin.readline().split())
-        graph[y][x] = 1
-    for i in range(n):
-        for j in range(m):
-            if graph[i][j] is 1 and visit[i][j] is 0:   # 현재위치의 graph에 배추가 있고, 아직 방문하지 않은경우
-                bfs([j,i])                              # bfs 탐색
-                cnt += 1                                # bfs 탐색을 한 횟수
-    print(cnt)
+    for _ in range(T):
+        M, N, K = map(int, input().split())
+        grid = [[False for _ in range(M)] for _ in range(N)]
+        visited = [[False for _ in range(M)] for _ in range(N)]
+
+        for _ in range(K):
+            x, y = map(int, input().split())
+            grid[y][x] = True
+
+        print(solve())
