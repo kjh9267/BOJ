@@ -1,56 +1,49 @@
-import sys
-from collections import deque
+# https://www.acmicpc.net/problem/1600
+
+
+class Node:
+    def __init__(self, x, y, cnt):
+        self.x = x
+        self.y = y
+        self.cnt = cnt
 
 
 def bfs():
-    queue = deque()
-    queue.append((0,0,0))
-    level = deque()
-    visit[0][0] = [1 for _ in range(k+1)]
-    cnt = 0
+    queue = __import__('collections').deque()
+    visited = [[[-1 for _ in range(K + 1)] for _ in range(M)] for _ in range(N)]
+    queue.append(Node(0, 0, 0))
+    visited[0][0] = [0 for _ in range(K + 1)]
+
     while queue:
-        a = queue.popleft()
-        for i, j in zip(dx,dy):
-            x = i + a[0]
-            y = j + a[1]
-            if 0 <= x < c and 0 <= y < r:
-                if visit[y][x][a[2]] is 0 and graph[y][x] is 0:
-                    level.append((x,y,a[2]))
-                    visit[y][x][a[2]] = 1
-                    if x == c-1 and y == r-1:
-                        return cnt + 1
-        if a[2] < k:
-            for i, j in zip(dx2,dy2):
-                x = i + a[0]
-                y = j + a[1]
-                if 0 <= x < c and 0 <= y < r:
-                    if visit[y][x][a[2]+1] is 0 and graph[y][x] is 0:
-                        level.append((x,y,a[2]+1))
-                        visit[y][x][a[2]+1] = 1
-                        if x == c-1 and y == r-1:
-                            return cnt + 1
-        if not queue:
-            queue.extend(level)
-            level.clear()
-            cnt += 1
+        cur = queue.popleft()
+        for idx, diff in enumerate(zip(dx, dy)):
+            next_x = cur.x + diff[0]
+            next_y = cur.y + diff[1]
+            if not (0 <= next_x < M and 0 <= next_y < N):
+                continue
+            if grid[next_y][next_x] == '1':
+                continue
+            if cur.cnt == K and idx >= 4:
+                continue
+            next_cnt = cur.cnt + (0 if idx < 4 else 1)
+            if visited[next_y][next_x][next_cnt] != -1:
+                continue
+            visited[next_y][next_x][next_cnt] = visited[cur.y][cur.x][cur.cnt] + 1
+            queue.append(Node(next_x, next_y, next_cnt))
+
+    res = float('inf')
+    for cnt in visited[N - 1][M - 1]:
+        if cnt != -1 and cnt < res:
+            res = cnt
+    return res if res != float('inf') else -1
 
 
-k = int(sys.stdin.readline())
-c, r = map(int,sys.stdin.readline().split())
-graph = [list(map(int,sys.stdin.readline().split())) for _ in range(r)]
-visit = [[[0 for u in range(k+1)] for j in range(c)] for i in range(r)]
-dx = (1,0,-1,0)
-dy = (0,1,0,-1)
-dx2 = (1,-1,2,-2,2,-2,1,-1)
-dy2 = (2,2,1,1,-1,-1,-2,-2)
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    dx = (1, 0, -1, 0, 1, 1, -1, -1, 2, 2, -2, -2)
+    dy = (0, 1, 0, -1, 2, -2, 2, -2, 1, -1, 1, -1)
+    K = int(input())
+    M, N = map(int, input().split())
+    grid = [input().split() for _ in range(N)]
 
-if r is 1 and c is 1:
-    print(0)
-    exit()
-
-res = bfs()
-
-if res is None:
-    print(-1)
-else:
-    print(res)
+    print(bfs())
