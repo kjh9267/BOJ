@@ -1,10 +1,32 @@
-n = input()
-x = [map(int,raw_input().split()) for i in range(n)]
-dp = [[0 for j in range(3)] for i in range(n)]
-for i in range(3):
-    dp[0][i] = x[0][i]
-for i in range(1,n):
-    dp[i][0] = min(dp[i - 1][1] + x[i][0], dp[i - 1][2] + x[i][0])
-    dp[i][1] = min(dp[i - 1][0] + x[i][1], dp[i - 1][2] + x[i][1])
-    dp[i][2] = min(dp[i - 1][0] + x[i][2], dp[i - 1][1] + x[i][2])
-print min(dp[n-1])
+# https://www.acmicpc.net/problem/1149
+
+import sys
+sys.setrecursionlimit(999999999)
+
+
+def dfs(home, color):
+    if home == N - 1:
+        return data[home][color]
+    if dp[home][color] != inf:
+        return dp[home][color]
+    for num in range(3):
+        if num == color:
+            continue
+        dp[home][color] = min(dp[home][color], dfs(home + 1, num) + data[home][color])
+    return dp[home][color]
+
+
+def dfs_all():
+    res = inf
+    for color in range(3):
+        res = min(res,dfs(0, color))
+    return res
+
+
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    inf = float('inf')
+    N = int(input())
+    data = [list(map(int, input().split())) for _ in range(N)]
+    dp = [[inf for _ in range(3)] for _ in range(N)]
+    print(dfs_all())
