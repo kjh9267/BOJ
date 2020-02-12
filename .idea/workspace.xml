@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8522d1ae-2585-48f6-a503-19c2ba3a90cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS/1012.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/1012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/1260.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -364,13 +363,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BFS/1012.py">
+        <entry file="file://$PROJECT_DIR$/BFS/1260.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#40#61#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -425,7 +421,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Back Tracking/1994.py" />
         <option value="$PROJECT_DIR$/Back Tracking/1993.py" />
         <option value="$PROJECT_DIR$/DFS/1993.py" />
         <option value="$PROJECT_DIR$/Simulation/1347.py" />
@@ -476,6 +471,7 @@
         <option value="$PROJECT_DIR$/Dijkstra/1916.py" />
         <option value="$PROJECT_DIR$/TT.py" />
         <option value="$PROJECT_DIR$/BFS/1012.py" />
+        <option value="$PROJECT_DIR$/BFS/1260.py" />
       </list>
     </option>
   </component>
@@ -554,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1012">
+  <component name="RunManager" selected="Python.1260">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -656,7 +652,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="18258" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1260" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -664,12 +660,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Queue/18258.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/1260.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -836,19 +832,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.6086" />
-      <item itemvalue="Python.18258" />
       <item itemvalue="Python.2667" />
       <item itemvalue="Python.TT" />
       <item itemvalue="Python.1916" />
       <item itemvalue="Python.1012" />
+      <item itemvalue="Python.1260" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1260" />
         <item itemvalue="Python.1012" />
         <item itemvalue="Python.TT" />
         <item itemvalue="Python.1916" />
         <item itemvalue="Python.2667" />
-        <item itemvalue="Python.18258" />
       </list>
     </recent_temporary>
   </component>
@@ -889,7 +885,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50068873" side_tool="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32037532" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31903484" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4993113" weight="0.32841823" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1128,16 +1124,6 @@
     <entry file="file://$PROJECT_DIR$/BFS/16948.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/1260.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/1325.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1197,11 +1183,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BFS/1012.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="196">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="e#40#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/1260.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
