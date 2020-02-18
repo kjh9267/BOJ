@@ -10,10 +10,9 @@ def dfs(cur, total):
     if dp[cur][total] != -1:
         return dp[cur][total]
     dp[cur][total] = 0
-    dp[cur][total] = max(dp[cur][total], dfs(cur + 1, total))
-    if total + weights[cur] > K:
-        return dp[cur][total]
-    dp[cur][total] = max(dp[cur][total], dfs(cur + 1, total + weights[cur]) + values[cur])
+    dp[cur][total] = dfs(cur + 1, total)
+    if total + weights[cur] <= K:
+        dp[cur][total] = max(dp[cur][total], dfs(cur + 1, total + weights[cur]) + values[cur])
     return dp[cur][total]
 
 
