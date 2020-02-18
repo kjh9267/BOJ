@@ -71,7 +71,6 @@ if __name__ == '__main__':
     input = __import__('sys').stdin.readline
     N = 9
     data = [list(map(int,input().split())) for _ in range(N)]
-    target = [set(range(1, 10)) for _ in range(N)]
     row_sets = [set() for _ in range(N)]
     col_sets = [set() for _ in range(N)]
     mid_sets = [set() for _ in range(N)]
