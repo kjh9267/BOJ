@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/2239
+# https://www.acmicpc.net/problem/4056
 
 
 def init():
@@ -25,7 +25,9 @@ def init():
 
 def dfs(depth):
     if depth == 81:
-        return True
+        if target == row_sets == col_sets == mid_sets:
+            return True
+        return False
     y = depth // N
     x = depth % N
 
@@ -70,13 +72,19 @@ def visited(insert, num, row, col):
 if __name__ == '__main__':
     input = __import__('sys').stdin.readline
     N = 9
-    data = [list(map(int,input().rstrip())) for _ in range(N)]
-    row_sets = [set() for _ in range(N)]
-    col_sets = [set() for _ in range(N)]
-    mid_sets = [set() for _ in range(N)]
+    target = [set(range(1, 10)) for _ in range(9)]
+    T = int(input())
 
-    init()
-    dfs(0)
+    for _ in range(T):
+        data = [list(map(int,input().rstrip())) for _ in range(N)]
+        row_sets = [set() for _ in range(N)]
+        col_sets = [set() for _ in range(N)]
+        mid_sets = [set() for _ in range(N)]
+        init()
 
-    for line in data:
-        print(''.join(map(str, line)))
+        if dfs(0):
+            for line in data:
+                print(''.join(map(str, line)))
+        else:
+            print('Could not complete this grid.')
+        print()
