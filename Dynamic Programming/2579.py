@@ -1,9 +1,30 @@
-n = input()
-a = [input() for i in range(n)]
-dp = [0]*n
-dp[0] = a[0]
-dp[1] = a[1] + dp[0]
-dp[2] = max(a[2] + dp[0], a[2] + a[1])
-for i in range(3,n):
-    dp[i] = max(a[i] + a[i-1] + dp[i-3], a[i] + dp[i-2])
-print dp[-1]
+# https://www.acmicpc.net/problem/2579
+
+import sys
+sys.setrecursionlimit(999999999)
+
+
+def dfs(cur, adj_cnt):
+    if cur > N:
+        return -inf
+    if cur == N:
+        return data[cur]
+    if dp[cur][adj_cnt] != 0:
+        return dp[cur][adj_cnt]
+    dp[cur][adj_cnt] = max(dp[cur][adj_cnt], dfs(cur + 2, 1) + data[cur])
+    if adj_cnt < 2:
+        dp[cur][adj_cnt] = max(dp[cur][adj_cnt], dfs(cur + 1, adj_cnt + 1) + data[cur])
+    return dp[cur][adj_cnt]
+
+
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    inf = float('inf')
+    N = int(input())
+    data = [0 for _ in range(N + 1)]
+    dp = [[0 for _ in range(3)] for _ in range(N + 1)]
+
+    for idx in range(1, N + 1):
+        data[idx] = int(input())
+
+    print(dfs(0, 0))
