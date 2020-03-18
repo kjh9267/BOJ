@@ -33,5 +33,5 @@ if __name__ == '__main__':
     grid = [list(map(int, input().split())) for _ in range(N)]
     dp = [[[-inf for _ in range(3)] for _ in range(M)] for _ in range(N)]
     visited = [[False for _ in range(M)] for _ in range(N)]
-    visited[0][0] = [True, True, True]
+    visited[0][0] = True
     print(dfs(0, 0, 0))
