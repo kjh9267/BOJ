@@ -1,49 +1,49 @@
-import sys
-from collections import deque
+# https://www.acmicpc.net/problem/2021
 
-n, l = map(int,sys.stdin.readline().split())
-graph = [[] for _ in range(n)]
-line = [list(map(int,sys.stdin.readline().split()))[:-1] for _ in range(l)]
 
-for i in range(l):
-    for j in range(len(line[i])):
-        line[i][j] -= 1
+def bfs():
+    queue = __import__('collections').deque()
+    queue.append(start)
 
-for i, j in enumerate(line):
-    for u in j:
-        graph[u].append(i)
+    visited = [False for _ in range(L + 1)]
 
-s, e = map(int,sys.stdin.readline().split())
-s -= 1
-e -= 1
+    for node in adj[start]:
+        visited[node] = True
 
-if set(graph[s]).intersection(graph[e]):
-    print(0)
-    exit()
-
-queue = deque()
-queue.append(s)
-level = deque()
-visit = [0 for _ in range(l)]
-cnt = 0
-
-for i in graph[s]:
-    visit[i] = 1
-
-while queue:
-    x = queue.popleft()
-    for i in graph[x]:
-        for j in line[i]:
-            for u in graph[j]:
-                if visit[u] is 0:
-                    visit[u] = 1
-                    level.append(j)
-                    if e in line[u]:
-                        print(cnt + 1)
-                        exit()
-    if not queue:
-        queue.extend(level)
-        level.clear()
+    cnt = 0
+    while queue:
+        size = len(queue)
         cnt += 1
 
-print(-1)
+        for _ in range(size):
+            cur_station = queue.popleft()
+            for line in adj[cur_station]:
+                for nxt_station in lines[line]:
+                    for nxt_line in adj[nxt_station]:
+                        if visited[nxt_line]:
+                            continue
+                        visited[nxt_line] = True
+                        queue.append(nxt_station)
+                        if end in lines[nxt_line]:
+                            return cnt
+
+    return -1
+
+
+if __name__ == '__main__':
+    inf = float('inf')
+    input = __import__('sys').stdin.readline
+    N, L = map(int, input().split())
+    adj = [set() for _ in range(N + 1)]
+    lines = [set() for _ in range(L + 1)]
+
+    for idx in range(1, L + 1):
+        lines[idx] |= set(map(int, input().split()[:-1]))
+
+    start, end = map(int, input().split())
+
+    for line, stations in enumerate(lines):
+        for station in stations:
+            adj[station].add(line)
+
+    print(0 if adj[start] & adj[end] else bfs())
