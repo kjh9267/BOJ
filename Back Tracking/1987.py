@@ -1,30 +1,30 @@
-import sys
+# https://www.acmicpc.net/problem/1987
 
 
-class Res:
-    def __init__(self):
-        self.res = 1
+def dfs(x, y, depth):
+    res[0] = max(res[0], depth)
+
+    for diff_x, diff_y in zip(dx, dy):
+        next_x = x + diff_x
+        next_y = y + diff_y
+        if not (0 <= next_x < C and 0 <= next_y < R):
+            continue
+        next_value = grid[next_y][next_x]
+        if visited[next_value]:
+            continue
+        visited[next_value] = True
+        dfs(next_x, next_y, depth + 1)
+        visited[next_value] = False
 
 
-def dfs(x,y,cnt):
-    if res.res < cnt:
-        res.res = cnt
-
-    for i, j in zip(dx,dy):
-        xx = x + i
-        yy = y + j
-        if 0 <= xx < c and 0 <= yy < r and not visit[graph[yy][xx]]:
-            visit[graph[yy][xx]] = True
-            dfs(xx,yy,cnt+1)
-            visit[graph[yy][xx]] = False
-
-
-r, c = map(int,sys.stdin.readline().split())
-graph = [list(map(lambda x: ord(x) - 65, sys.stdin.readline().rstrip())) for _ in range(r)]
-visit = [False for _ in range(26)]
-visit[graph[0][0]] = True
-dx = (1,0,-1,0)
-dy = (0,1,0,-1)
-res = Res()
-dfs(0,0,1)
-print(res.res)
+if __name__ == '__main__':
+    dx = (1, 0, -1, 0)
+    dy = (0 , 1, 0, -1)
+    input = __import__('sys').stdin.readline
+    R, C = map(int, input().split())
+    grid = [list(map(lambda x: ord(x) - 65, input().rstrip())) for _ in range(R)]
+    visited = [False for _ in range(26)]
+    visited[grid[0][0]] = True
+    res = [1]
+    dfs(0, 0, 1)
+    print(res[0])
