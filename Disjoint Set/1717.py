@@ -1,4 +1,4 @@
-import sys
+# https://www.acmicpc.net/problem/1717
 
 
 def find(cur):
@@ -11,26 +11,29 @@ def find(cur):
 def merge(a, b):
     a = find(a)
     b = find(b)
+
     if a == b:
         return
-    elif parent[a] > parent[b]:
-        parent[b] += parent[a]
-        parent[a] = b
-    else:
-        parent[a] += parent[b]
-        parent[b] = a
+    if rank[a] < rank[b]:
+        a, b = b, a
+    parent[a] += parent[b]
+    parent[b] = a
+    if rank[a] == rank[b]:
+        rank[a] += 1
 
 
-n, m = map(int,sys.stdin.readline().split())
-parent = [-1 for _ in range(n+1)]
+if __name__ == '__main__':
+    input = __import__('sys').stdin.readline
+    N, M = map(int, input().split())
+    parent = [-1 for _ in range(N + 1)]
+    rank = [0 for _ in range(N + 1)]
 
-for _ in range(m):
-    op, a, b = map(int,sys.stdin.readline().split())
+    for _ in range(M):
+        op, a, b = map(int, input().split())
 
-    if op is 0:
-        merge(a, b)
-    else:
-        if find(a) == find(b):
+        if op == 0:
+            merge(a, b)
+        elif find(a) == find(b):
             print("YES")
         else:
             print("NO")
