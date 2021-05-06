@@ -1,32 +1,44 @@
 # https://www.acmicpc.net/problem/2533
+
 import sys
 sys.setrecursionlimit(999999999)
 
 
-def dfs(cur, color, prev_color):
-    if dp[cur][color] != -1:
-        return dp[cur][color]
-
-    dp[cur][color] = color
-
-    temp = 0
+def init_tree(cur):
     for nxt in tree[cur]:
-        if not (prev_color == color == 0):
-            ret = dfs(nxt, 0, color)
-            temp = max(temp, ret)
-        ret = dfs(nxt, 1, color)
-        temp = max(temp, ret)
+        if visited[nxt]:
+            continue
+        visited[nxt] = True
+        init_tree(nxt)
+        new_tree[cur].append(nxt)
 
-    dp[cur][color] += temp
 
-    return dp[cur][color]
+def dfs(cur, is_adapter):
+    is_leaf = cur != root and len(new_tree[cur]) == 0
+
+    if is_leaf:
+        return is_adapter
+
+    if dp[cur][is_adapter] != -1:
+        return dp[cur][is_adapter]
+
+    dp[cur][is_adapter] = is_adapter
+    for nxt in new_tree[cur]:
+        if is_adapter == 0:
+            dp[cur][is_adapter] += dfs(nxt, 1)
+        else:
+            dp[cur][is_adapter] += min(dfs(nxt, 0), dfs(nxt, 1))
+
+    return dp[cur][is_adapter]
 
 
 if __name__ == '__main__':
     input = __import__('sys').stdin.readline
-    inf = float('inf')
+    root = 1
     N = int(input())
     tree = [list() for _ in range(N + 1)]
+    visited = [False for _ in range(N + 1)]
+    new_tree = [list() for _ in range(N + 1)]
     dp = [[-1 for _ in range(2)] for _ in range(N + 1)]
 
     for _ in range(N - 1):
@@ -34,7 +46,9 @@ if __name__ == '__main__':
         tree[u].append(v)
         tree[v].append(u)
 
-    print(dfs(1, 0, 0))
-    print(dp)
-    print(dfs(1, 1, 0))
-    print(dp)
+    visited[root] = True
+    init_tree(root)
+    tree.clear()
+    visited.clear()
+
+    print(min(dfs(root, 1), dfs(root, 0)))
